@@ -1,10 +1,12 @@
 {
   "name": "anz-2027",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "tsc --noEmit && vite build",
+    "build:vercel": "npm run build && node scripts/build-vercel.mjs",
+    "preview:export": "node scripts/export-vercel-preview.mjs",
     "dev": "vite",
     "qa": "node scripts/qa.mjs",
     "package": "python scripts/package.py"

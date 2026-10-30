@@ -1,0 +1,35 @@
+{
+  "src/main.ts": {
+    "file": "main.js",
+    "name": "main",
+    "src": "src/main.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/motion.ts"
+    ],
+    "css": [
+      "main.css"
+    ],
+    "assets": [
+      "Satoshi-Regular.woff2",
+      "Satoshi-Medium.woff2"
+    ]
+  },
+  "src/motion.ts": {
+    "file": "assets/motion-CVJG_22f.js",
+    "name": "motion",
+    "src": "src/motion.ts",
+    "isDynamicEntry": true,
+    "css": [
+      "motion.css"
+    ]
+  },
+  "wordpress/wp-content/themes/anz-2027/assets/fonts/Satoshi-Medium.woff2": {
+    "file": "Satoshi-Medium.woff2",
+    "src": "wordpress/wp-content/themes/anz-2027/assets/fonts/Satoshi-Medium.woff2"
+  },
+  "wordpress/wp-content/themes/anz-2027/assets/fonts/Satoshi-Regular.woff2": {
+    "file": "Satoshi-Regular.woff2",
+    "src": "wordpress/wp-content/themes/anz-2027/assets/fonts/Satoshi-Regular.woff2"
+  }
+}

@@ -12,3 +12,7 @@ Open Graph and fallback LocalBusiness imagery use the video poster. Source name 
 }
 
 Verification: production build and changed PHP lint pass. Edge and WebKit confirm inline muted playback, pause/resume, loop restart, offscreen pause, 20% overlay, no horizontal overflow at 1440/768/390/320px, zero hero accessibility violations and no MP4 request with reduced motion. See `qa/hero-video-results.json`.
+
+## Immersive layout — 1.8.2
+
+The user requested the video around the whole window in a rounded container, behind the text and CTAs. The hero now fills nearly one viewport with 12px desktop/8px mobile outer margins, rounded corners, cover-fit video and a lower-left content block. A uniform 30% dark overlay replaces the earlier 20% inset-video treatment to support white copy. The primary action has a light surface; the pause control stays in the bottom-right corner. The detached media caption is removed. The header keeps its existing glass navigation and marquee. Text reveals, native fallback, reduced-motion poster and playback controls remain. The Vercel home snapshot is refreshed too.

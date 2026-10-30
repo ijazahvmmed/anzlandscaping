@@ -2,7 +2,7 @@
 
 Custom classic WordPress theme and a small companion editing plugin. PHP renders the pages; Vite compiles TypeScript, CSS, GSAP/ScrollTrigger and Lenis into static theme assets. Hostinger needs no Node process.
 
-Current release: **1.8.1** — supplied hero video with 20% dark overlay, muted inline looping, pause control and reduced-motion poster. Original homepage content, client logos, certificates and search metadata remain in place. See [hero video notes](docs/HERO_VIDEO.md). See [content restoration notes](docs/ORIGINAL_HOME_CONTENT.md). See [glass refinement notes](docs/GLASS_DESIGN_REFINEMENT.md).
+Current release: **1.8.2** — rounded full-window hero video with overlaid headline/CTAs and a 30% dark overlay, muted inline looping, pause control and reduced-motion poster. Original homepage content, client logos, certificates and search metadata remain in place. See [hero video notes](docs/HERO_VIDEO.md). See [content restoration notes](docs/ORIGINAL_HOME_CONTENT.md). See [glass refinement notes](docs/GLASS_DESIGN_REFINEMENT.md).
 
 ## Local preview
 
@@ -26,6 +26,12 @@ python scripts/package.py
 ```
 
 Change the PHP path in the lint script if needed. The source includes `package-lock.json`. `assets/dist` is already compiled in the theme ZIP. Relative Vite asset paths are essential for a theme installed in a WordPress subdirectory.
+
+## Vercel preview
+
+Vercel uses `vercel.json`: **Build Command** `npm run build:vercel`, **Output Directory** `dist/site`, **Framework** Other, and repository root as Root Directory. Commit `preview/` along with the configuration and scripts, then redeploy. This serves a static review of all 44 pages, with call/email enquiries. Native WordPress forms and administration still require WordPress hosting. The WordPress build remains `npm run build`.
+
+After changing PHP templates or WordPress content, run `npm run preview:export` locally while WordPress is running, then commit the refreshed snapshots. See [Vercel deployment notes](docs/VERCEL_PREVIEW.md).
 
 ## Handoff files
 

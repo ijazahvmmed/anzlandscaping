@@ -1,0 +1,203 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/about-us/",
+      "status": 200
+    },
+    {
+      "route": "/services/",
+      "status": 200
+    },
+    {
+      "route": "/projects/",
+      "status": 200
+    },
+    {
+      "route": "/contact-us/",
+      "status": 200
+    },
+    {
+      "route": "/blog/",
+      "status": 200
+    },
+    {
+      "route": "/cancellation-refund-policy/",
+      "status": 200
+    },
+    {
+      "route": "/terms-and-condition/",
+      "status": 200
+    },
+    {
+      "route": "/privacy-policy/",
+      "status": 200
+    },
+    {
+      "route": "/payment-security/",
+      "status": 200
+    },
+    {
+      "route": "/services/terrace-garden-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/projects/bhive-premium/",
+      "status": 200
+    },
+    {
+      "route": "/services/vertical-garden-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/villa-landscaping-in-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/pergola-and-fabrication-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/luxury-landscaping-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/swimming-pool-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/water-fountains-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/landscaping-services-in-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/commercial-landscaping-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/landscape-irrigation-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/softscape-lawn-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/hardscape-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/moss-wall-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/garden-maintenance-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/plant-rentals-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/services/frp-planters-services-bangalore/",
+      "status": 200
+    },
+    {
+      "route": "/projects/goodearth-malhar/",
+      "status": 200
+    },
+    {
+      "route": "/projects/prime-square/",
+      "status": 200
+    },
+    {
+      "route": "/projects/skylark-mansions/",
+      "status": 200
+    },
+    {
+      "route": "/projects/iampl/",
+      "status": 200
+    },
+    {
+      "route": "/projects/plotted-development/",
+      "status": 200
+    },
+    {
+      "route": "/projects/private-farm/",
+      "status": 200
+    },
+    {
+      "route": "/transforming-your-yard-why-gardening-services-are-the-way-to-go/",
+      "status": 200
+    },
+    {
+      "route": "/transforming-your-yard-why-gardening-services-are-the-way-to-go-2/",
+      "status": 200
+    },
+    {
+      "route": "/transforming-your-yard-why-gardening-services-are-the-way-to-go-3/",
+      "status": 200
+    },
+    {
+      "route": "/transforming-your-yard-why-gardening-services-are-the-way-to-go-4/",
+      "status": 200
+    },
+    {
+      "route": "/projects/salarpuria-sattva/",
+      "status": 200
+    },
+    {
+      "route": "/projects/terrace-garden/",
+      "status": 200
+    },
+    {
+      "route": "/otp-anz/",
+      "status": 200
+    },
+    {
+      "route": "/otp-test-form/",
+      "status": 200
+    },
+    {
+      "route": "/thank-you/",
+      "status": 200
+    },
+    {
+      "route": "/workplace-greenery/",
+      "status": 200
+    },
+    {
+      "route": "/landscape-design-execution/",
+      "status": 200
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "drawer": true,
+  "faq": true,
+  "noForms": true,
+  "videoPlaying": true,
+  "errors": [],
+  "requestFailures": [],
+  "brokenImages": [],
+  "phpFiles": [],
+  "failures": []
+}

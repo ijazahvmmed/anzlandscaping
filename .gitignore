@@ -1,6 +1,6 @@
 node_modules/
 .local/
-dist/
+/dist/
 qa/trace/
 qa/*-recording/
 qa/garden-demo/

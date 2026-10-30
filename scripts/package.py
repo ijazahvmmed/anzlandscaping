@@ -10,10 +10,10 @@ zip_folder(T,D/'anz-2027-theme.zip','anz-2027')
 zip_folder(P,D/'anz-site-core-plugin.zip','anz-site-core')
 zip_folder(T,R/'.local/anz-2027-install-proof.zip','anz-2027-proof')
 with zipfile.ZipFile(D/'anz-2027-source.zip','w',zipfile.ZIP_DEFLATED) as z:
- for folder in ['src','scripts','wordpress','docs']:
+ for folder in ['src','scripts','wordpress','docs','preview']:
   for path in (R/folder).rglob('*'):
    if path.is_file():z.write(path,Path('anz-2027')/path.relative_to(R))
- for name in ['package.json','package-lock.json','tsconfig.json','vite.config.ts','README.md','.gitignore']:
+ for name in ['package.json','package-lock.json','tsconfig.json','vite.config.ts','vercel.json','README.md','.gitignore']:
   path=R/name
   if path.exists():z.write(path,Path('anz-2027')/name)
  for name in ['URL_MIGRATION_MAP.csv','LIVE_SOURCE_CRAWL.csv','MEDIA_REGISTER.csv','downloaded-assets.json','PHOTO_EDIT_REGISTER.json','ORIGINAL_HOME_ASSETS.json','page-summary.json','local-seed.json']:
@@ -32,7 +32,7 @@ with zipfile.ZipFile(D/'anz-2027-review-evidence.zip','w',zipfile.ZIP_DEFLATED) 
  for path in (R/'qa').glob('*-original-form-*.png'):z.write(path,Path('qa')/path.name)
  for path in (R/'qa').glob('*-brand-*.png'):z.write(path,Path('qa')/path.name)
  for path in (R/'qa').glob('*-clean-*.png'):z.write(path,Path('qa')/path.name)
- for pattern in ['*-hero-video.png','*-original-home-*.png','*-source-*.png','*-homepage*.png','*-header-marquee-restored.png','homepage-story-preview.png','homepage-story-overview.jpg','homepage-story-hero.png']:
+ for pattern in ['*-hero-video*.png','*-original-home-*.png','*-source-*.png','*-homepage*.png','*-header-marquee-restored.png','homepage-story-preview.png','homepage-story-overview.jpg','homepage-story-hero.png']:
   for path in (R/'qa').glob(pattern):z.write(path,Path('qa')/path.name)
  if (R/'qa/homepage-story-walkthrough.webm').exists():z.write(R/'qa/homepage-story-walkthrough.webm','qa/homepage-story-walkthrough.webm')
  for pattern in ['*-compact-projects.png','*-interactive-garden*.png','*-creative-footer.png']:

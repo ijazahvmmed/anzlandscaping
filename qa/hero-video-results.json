@@ -8,29 +8,37 @@
       "muted": true,
       "loop": true,
       "inline": true,
-      "overlay": "rgba(0, 0, 0, 0.2)",
+      "overlay": "rgba(0, 0, 0, 0.3)",
       "paused": true,
       "loops": true,
       "layouts": [
         {
           "width": 1440,
           "overflow": false,
-          "ratio": 1.7778184115163402
+          "ratio": 1.4517453798767967,
+          "videoFillsHero": true,
+          "copyInside": true
         },
         {
           "width": 768,
           "overflow": false,
-          "ratio": 1.7777952508256014
+          "ratio": 0.7618069815195072,
+          "videoFillsHero": true,
+          "copyInside": true
         },
         {
           "width": 390,
           "overflow": false,
-          "ratio": 1.7777777777777777
+          "ratio": 0.4142538975501114,
+          "videoFillsHero": true,
+          "copyInside": true
         },
         {
           "width": 320,
           "overflow": false,
-          "ratio": 1.7777777777777777
+          "ratio": 0.3363028953229399,
+          "videoFillsHero": true,
+          "copyInside": true
         }
       ],
       "offscreenPaused": true,
@@ -45,35 +53,43 @@
     },
     {
       "engine": "webkit",
-      "width": 836,
-      "height": 470,
+      "width": 1732,
+      "height": 974,
       "duration": 6.042,
       "muted": true,
       "loop": true,
       "inline": true,
-      "overlay": "rgba(0, 0, 0, 0.2)",
+      "overlay": "rgba(0, 0, 0, 0.3)",
       "paused": true,
       "loops": true,
       "layouts": [
         {
           "width": 1440,
           "overflow": false,
-          "ratio": 1.7778184115163402
+          "ratio": 1.4517453798767967,
+          "videoFillsHero": true,
+          "copyInside": true
         },
         {
           "width": 768,
           "overflow": false,
-          "ratio": 1.7777952508256014
+          "ratio": 0.7618069815195072,
+          "videoFillsHero": true,
+          "copyInside": true
         },
         {
           "width": 390,
           "overflow": false,
-          "ratio": 1.7777777777777777
+          "ratio": 0.4142538975501114,
+          "videoFillsHero": true,
+          "copyInside": true
         },
         {
           "width": 320,
           "overflow": false,
-          "ratio": 1.7777777777777777
+          "ratio": 0.3363028953229399,
+          "videoFillsHero": true,
+          "copyInside": true
         }
       ],
       "offscreenPaused": true,
