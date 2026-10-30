@@ -19,3 +19,13 @@ Dialog scroll locks are reconciled from actual open dialogs, including pageshow/
 The replacement regression check exercises repeated swipes across hero, services, work, approach and the garden, three menu open/close cycles, history restoration, viewport resize, uncancelled touch events and continued desktop Lenis activation. Chromium uses trusted CDP touch gestures; WebKit tests native scrolling and lock recovery without claiming physical iOS gesture verification.
 
 Verification completed against both local WordPress and the built Vercel static output. Both Chromium trusted-touch and WebKit native-scroll/lock-recovery checks pass, including five page regions, three repeated menu cycles, viewport resize and stale-lock recovery. No cancelled touchmove events or JavaScript errors were observed. Reports: `qa/mobile-scroll-wordpress-results.json` and `qa/mobile-scroll-results.json`. Production build 1.8.4 passes. Physical-device performance remains outside these automated checks.
+
+## Momentum interruption correction — 1.8.5
+
+Mobile no longer imports the GSAP/ScrollTrigger/Lenis bundle at all. The prior fix removed Lenis but left ScrollTrigger refresh callbacks after lazy-image and font loads. The installed ScrollTrigger refresh implementation records/restores scroll position; those writes are incompatible with uninterrupted native fling momentum. This was a plausible remaining interruption path, not established by the earlier short-swipe test.
+
+Touch devices and viewports below 951px now load a separate 1.14KB reveal module using IntersectionObserver and Web Animations. It does not read/write scroll position, attach scroll listeners, refresh on image loads, pin sections, or split words. Cards and headings retain one-time opacity/transform reveals. Desktop motion stays unchanged. Content remains visible if scripts fail or motion is reduced.
+
+The regression check now records mobile motion-chunk requests and instruments programmatic scroll writes while swiping through sections, in addition to menu and history recovery checks. This checks the missing failure mode rather than inferring success from movement alone.
+
+1.8.5 Vercel-output regression result: Edge trusted touch gestures and WebKit native-scroll checks pass. Only the mobile-motion chunk was requested on mobile; no GSAP motion chunk, script-driven scroll writes, cancelled touchmove events or JavaScript errors were recorded. Desktop Lenis still initializes. Report: `qa/mobile-scroll-results.json`. This does not substitute for physical iOS/Android verification.

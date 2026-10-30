@@ -76,5 +76,9 @@ if(galleryLinks.length){
 // Enhancement only: content remains visible before scripts, after errors and with reduced motion.
 const constrained=(navigator as Navigator & {connection?:{saveData?:boolean}}).connection?.saveData;
 if(!matchMedia('(prefers-reduced-motion: reduce)').matches && !constrained){
- import('./motion').then(({initSiteMotion})=>initSiteMotion()).catch(()=>{/* Native document flow remains usable. */});
+ if(matchMedia('(min-width:951px) and (hover:hover) and (pointer:fine)').matches){
+  import('./motion').then(({initSiteMotion})=>initSiteMotion()).catch(()=>{/* Native document flow remains usable. */});
+ }else{
+  import('./mobile-motion').then(({initMobileMotion})=>initMobileMotion()).catch(()=>{/* Native document flow remains usable. */});
+ }
 }

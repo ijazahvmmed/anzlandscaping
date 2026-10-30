@@ -5,7 +5,8 @@
     "src": "src/main.ts",
     "isEntry": true,
     "dynamicImports": [
-      "src/motion.ts"
+      "src/motion.ts",
+      "src/mobile-motion.ts"
     ],
     "css": [
       "main.css"
@@ -14,6 +15,12 @@
       "Satoshi-Regular.woff2",
       "Satoshi-Medium.woff2"
     ]
+  },
+  "src/mobile-motion.ts": {
+    "file": "assets/mobile-motion-CWIL4WU5.js",
+    "name": "mobile-motion",
+    "src": "src/mobile-motion.ts",
+    "isDynamicEntry": true
   },
   "src/motion.ts": {
     "file": "assets/motion-CDquUrRm.js",

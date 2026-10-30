@@ -2,7 +2,7 @@
 
 Custom classic WordPress theme and a small companion editing plugin. PHP renders the pages; Vite compiles TypeScript, CSS, GSAP/ScrollTrigger and Lenis into static theme assets. Hostinger needs no Node process.
 
-Current release: **1.8.4** — transparent header without the white fade, native mobile momentum scrolling, desktop-only Lenis and lighter mobile reveals. See [mobile refinement notes](docs/MOBILE_SCROLL_REFINEMENT.md). Retains the rounded full-window hero video with overlaid headline/CTAs and a 30% dark overlay, muted inline looping, pause control and reduced-motion poster. Original homepage content, client logos, certificates and search metadata remain in place. See [hero video notes](docs/HERO_VIDEO.md). See [content restoration notes](docs/ORIGINAL_HOME_CONTENT.md). See [glass refinement notes](docs/GLASS_DESIGN_REFINEMENT.md).
+Current release: **1.8.5** — transparent header without the white fade, native mobile momentum with an independent visibility-based reveal module; GSAP/ScrollTrigger/Lenis load on desktop only. See [mobile refinement notes](docs/MOBILE_SCROLL_REFINEMENT.md). Retains the rounded full-window hero video with overlaid headline/CTAs and a 30% dark overlay, muted inline looping, pause control and reduced-motion poster. Original homepage content, client logos, certificates and search metadata remain in place. See [hero video notes](docs/HERO_VIDEO.md). See [content restoration notes](docs/ORIGINAL_HOME_CONTENT.md). See [glass refinement notes](docs/GLASS_DESIGN_REFINEMENT.md).
 
 ## Local preview
 

@@ -12,35 +12,35 @@
         {
           "selector": ".immersive-hero",
           "before": 0,
-          "after": 338,
+          "after": 411,
           "plants": null,
           "afterPlants": null
         },
         {
           "selector": ".original-services",
           "before": 3516,
-          "after": 3971,
+          "after": 3972,
           "plants": null,
           "afterPlants": null
         },
         {
           "selector": ".home-work",
           "before": 5554,
-          "after": 6002,
+          "after": 5900,
           "plants": null,
           "afterPlants": null
         },
         {
           "selector": ".home-approach",
           "before": 9187,
-          "after": 9686,
+          "after": 9642,
           "plants": null,
           "afterPlants": null
         },
         {
           "selector": ".footer-garden-field",
           "before": 12529,
-          "after": 12122,
+          "after": 12100,
           "plants": null,
           "afterPlants": null
         }
@@ -54,7 +54,7 @@
             "overflow": "visible"
           },
           "movement": {
-            "before": 12110,
+            "before": 12080,
             "after": 12529
           }
         },
@@ -67,7 +67,7 @@
           },
           "movement": {
             "before": 12529,
-            "after": 12185
+            "after": 12027
           }
         },
         {
@@ -78,8 +78,8 @@
             "overflow": "visible"
           },
           "movement": {
-            "before": 12185,
-            "after": 11726
+            "before": 12013,
+            "after": 12376
           }
         }
       ],
@@ -89,8 +89,8 @@
         "overflow": "visible"
       },
       "afterResize": {
-        "before": 11707,
-        "after": 12203
+        "before": 12377,
+        "after": 11886
       },
       "cancelled": [
         {
@@ -107,7 +107,11 @@
         }
       ],
       "desktopLenis": true,
-      "errors": []
+      "errors": [],
+      "motionRequests": [
+        "http://127.0.0.1:8766/wp-content/themes/anz-2027/assets/dist/assets/mobile-motion-CWIL4WU5.js"
+      ],
+      "scrollWrites": []
     },
     {
       "engine": "webkit",
@@ -216,7 +220,11 @@
         }
       ],
       "desktopLenis": true,
-      "errors": []
+      "errors": [],
+      "motionRequests": [
+        "http://127.0.0.1:8766/wp-content/themes/anz-2027/assets/dist/assets/mobile-motion-CWIL4WU5.js"
+      ],
+      "scrollWrites": []
     }
   ],
   "failures": []
