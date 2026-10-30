@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc --noEmit && vite build",
-    "build:vercel": "npm run build && node scripts/build-vercel.mjs",
+    "build": "tsc --noEmit && vite build && node scripts/build-vercel.mjs",
+    "build:theme": "tsc --noEmit && vite build",
+    "build:vercel": "npm run build",
     "preview:export": "node scripts/export-vercel-preview.mjs",
     "dev": "vite",
     "qa": "node scripts/qa.mjs",
