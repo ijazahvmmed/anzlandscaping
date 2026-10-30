@@ -11,7 +11,11 @@ export function initHeroVideo(){
   if(!visible||document.hidden||!automatic||userPaused){video.pause();return;}
   if(!video.getAttribute('src'))video.src=video.dataset.heroVideo!;
   video.muted=true;
-  void video.play().catch(()=>{userPaused=true;button.hidden=false;button.setAttribute('aria-label','Play hero video');button.classList.add('is-paused');});
+  if(!video.paused)return;
+  void video.play().catch((error:DOMException)=>{
+   if(error.name==='AbortError'||!visible||document.hidden||reduce.matches)return;
+   userPaused=true;button.hidden=false;button.setAttribute('aria-label','Play hero video');button.classList.add('is-paused');
+  });
  };
  const update=()=>{button.setAttribute('aria-label',video.paused?'Play hero video':'Pause hero video');button.classList.toggle('is-paused',video.paused);};
  button.addEventListener('click',()=>{userPaused=!video.paused;sync();});
