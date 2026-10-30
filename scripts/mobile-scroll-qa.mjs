@@ -1,20 +1,24 @@
-import {chromium} from '@playwright/test';
+import {chromium,webkit} from '@playwright/test';
 import fs from 'node:fs/promises';
-const browser=await chromium.launch({channel:'msedge'});const results=[];
-try{
- const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,deviceScaleFactor:2,reducedMotion:'no-preference'});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto(process.env.ANZ_QA_URL||'http://127.0.0.1:8765/',{waitUntil:'networkidle'});await page.waitForFunction(()=>document.documentElement.classList.contains('lenis'));await page.waitForTimeout(1400);
- const before=await page.evaluate(()=>({headerBackground:getComputedStyle(document.querySelector('.site-header')).backgroundImage,touchEnabled:window.lenis?.touch,coarse:matchMedia('(pointer:coarse)').matches}));
- await page.screenshot({path:'qa/mobile-scroll-header.png'});
- const cdp=await context.newCDPSession(page);await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:220,y:690}]});
- for(let n=1;n<=12;n++){await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:220,y:690-n*25}]});await page.waitForTimeout(16);}
- const atRelease=await page.evaluate(()=>scrollY);await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});const samples=[];for(let n=0;n<12;n++){await page.waitForTimeout(50);samples.push(await page.evaluate(()=>scrollY));}
- const moving=samples.at(-1)>atRelease+5,forward=samples.every((v,n)=>!n||v>=samples[n-1]-2);
- await page.getByRole('button',{name:'Menu',exact:false}).click();await page.waitForTimeout(600);const stopped=await page.evaluate(()=>document.documentElement.classList.contains('lenis-stopped'));await page.keyboard.press('Escape');await page.waitForTimeout(500);const resumed=await page.evaluate(()=>!document.documentElement.classList.contains('lenis-stopped'));
- await page.locator('.original-services').scrollIntoViewIfNeeded();await page.waitForTimeout(800);const effects=await page.locator('.original-services h2').evaluate(el=>[...el.querySelectorAll('.blur-word')].map(s=>getComputedStyle(s).filter));
- const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
- const reduced=await browser.newPage({hasTouch:true,isMobile:true,viewport:{width:390,height:844},reducedMotion:'reduce'});await reduced.goto('http://127.0.0.1:8765/',{waitUntil:'networkidle'});const reducedLenis=await reduced.evaluate(()=>document.documentElement.classList.contains('lenis'));
- results.push({before,atRelease,samples,moving,forward,stopped,resumed,effects,overflow,reducedLenis,errors});
- const failures=results.filter(r=>r.before.headerBackground!=='none'||!r.before.touchEnabled||!r.before.coarse||!r.moving||!r.forward||!r.stopped||!r.resumed||r.overflow||r.reducedLenis||r.errors.length||r.effects.some(f=>f!=='none'));
- await fs.writeFile('qa/mobile-scroll-results.json',JSON.stringify({results,failures},null,2));console.log(JSON.stringify({results,failures},null,2));if(failures.length)process.exitCode=1;
-}finally{await browser.close();}
+const base=process.env.ANZ_QA_URL||'http://127.0.0.1:8765/';const results=[];
+for(const engine of ['edge','webkit']){
+ const browser=engine==='edge'?await chromium.launch({channel:'msedge'}):await webkit.launch();
+ try{
+  const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'no-preference'});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(base,{waitUntil:'networkidle'});await page.waitForTimeout(1400);
+  const state=()=>page.evaluate(()=>({lenis:document.documentElement.classList.contains('lenis'),locked:document.body.classList.contains('modal-open'),overflow:getComputedStyle(document.body).overflowY}));
+  const initial=await state();const moves=[];
+  const cdp=engine==='edge'?await context.newCDPSession(page):null;
+  const swipe=async()=>{const before=await page.evaluate(()=>scrollY);const direction=await page.evaluate(()=>scrollY+innerHeight>document.documentElement.scrollHeight-400?-1:1);if(cdp){await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:200,y:direction===1?650:250}]});for(let n=1;n<=10;n++){await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:200,y:direction===1?650-n*28:250+n*28}]});await page.waitForTimeout(16);}await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});}else{await page.evaluate(direction=>scrollBy({top:280*direction,behavior:'instant'}),direction);}await page.waitForTimeout(250);return {before,after:await page.evaluate(()=>scrollY)};};
+  for(const selector of ['.immersive-hero','.original-services','.home-work','.home-approach','.footer-garden-field']){await page.locator(selector).scrollIntoViewIfNeeded();await page.waitForTimeout(150);const plants=await page.locator('.footer-playground').getAttribute('data-plants');const movement=await swipe();const afterPlants=await page.locator('.footer-playground').getAttribute('data-plants');moves.push({selector,...movement,plants,afterPlants});}
+  const menus=[];for(let n=0;n<3;n++){await page.getByRole('button',{name:'Menu',exact:false}).click();await page.waitForTimeout(650);const locked=(await state()).locked;await page.keyboard.press('Escape');await page.waitForTimeout(500);const after=await state();const movement=await swipe();menus.push({locked,after,movement});}
+  await page.evaluate(()=>{document.body.classList.add('modal-open');dispatchEvent(new PageTransitionEvent('pageshow',{persisted:true}));});await page.waitForTimeout(50);const restored=await state();
+  await page.setViewportSize({width:390,height:750});await page.setViewportSize({width:390,height:844});const afterResize=await swipe();
+  // A touch event must not be cancelled by Lenis on the document/video/garden.
+  const cancelled=await page.evaluate(()=>['video','.footer-garden-field','main'].map(selector=>{const el=document.querySelector(selector);let event;try{event=new TouchEvent('touchmove',{bubbles:true,cancelable:true,touches:[new Touch({identifier:1,target:el,clientX:180,clientY:400})]});}catch{event=new Event('touchmove',{bubbles:true,cancelable:true});}el.dispatchEvent(event);return {selector,prevented:event.defaultPrevented};}));
+  const desktop=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'no-preference'});await desktop.goto(base,{waitUntil:'networkidle'});await desktop.waitForTimeout(500);const desktopLenis=await desktop.evaluate(()=>document.documentElement.classList.contains('lenis'));
+  results.push({engine,gesture:cdp?'trusted touch swipe':'native scroll fallback',initial,moves,menus,restored,afterResize,cancelled,desktopLenis,errors});
+ }finally{await browser.close();}
+}
+const failures=results.filter(r=>r.initial.lenis||r.initial.locked||r.moves.some(m=>Math.abs(m.after-m.before)<=20||m.selector==='.footer-garden-field'&&m.plants!==m.afterPlants)||r.menus.some(m=>!m.locked||m.after.locked||m.after.lenis||Math.abs(m.movement.after-m.movement.before)<=20)||r.restored.locked||Math.abs(r.afterResize.after-r.afterResize.before)<=20||r.cancelled.some(c=>c.prevented)||!r.desktopLenis||r.errors.length);
+await fs.writeFile('qa/mobile-scroll-results.json',JSON.stringify({results,failures},null,2));console.log(JSON.stringify({results,failures},null,2));if(failures.length)process.exitCode=1;

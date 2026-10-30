@@ -1,0 +1,223 @@
+{
+  "results": [
+    {
+      "engine": "edge",
+      "gesture": "trusted touch swipe",
+      "initial": {
+        "lenis": false,
+        "locked": false,
+        "overflow": "visible"
+      },
+      "moves": [
+        {
+          "selector": ".immersive-hero",
+          "before": 0,
+          "after": 529,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".original-services",
+          "before": 3516,
+          "after": 4002,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".home-work",
+          "before": 5554,
+          "after": 5965,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".home-approach",
+          "before": 9187,
+          "after": 9571,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".footer-garden-field",
+          "before": 12595,
+          "after": 12166,
+          "plants": null,
+          "afterPlants": null
+        }
+      ],
+      "menus": [
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12144,
+            "after": 12568
+          }
+        },
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12578,
+            "after": 12189
+          }
+        },
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12185,
+            "after": 12595
+          }
+        }
+      ],
+      "restored": {
+        "lenis": false,
+        "locked": false,
+        "overflow": "visible"
+      },
+      "afterResize": {
+        "before": 12595,
+        "after": 12116
+      },
+      "cancelled": [
+        {
+          "selector": "video",
+          "prevented": false
+        },
+        {
+          "selector": ".footer-garden-field",
+          "prevented": false
+        },
+        {
+          "selector": "main",
+          "prevented": false
+        }
+      ],
+      "desktopLenis": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "gesture": "native scroll fallback",
+      "initial": {
+        "lenis": false,
+        "locked": false,
+        "overflow": "visible"
+      },
+      "moves": [
+        {
+          "selector": ".immersive-hero",
+          "before": 0,
+          "after": 280,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".original-services",
+          "before": 3516,
+          "after": 3796,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".home-work",
+          "before": 5554,
+          "after": 5834,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".home-approach",
+          "before": 9187,
+          "after": 9467,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".footer-garden-field",
+          "before": 12596,
+          "after": 12316,
+          "plants": null,
+          "afterPlants": null
+        }
+      ],
+      "menus": [
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12316,
+            "after": 12036
+          }
+        },
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12036,
+            "after": 12316
+          }
+        },
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12316,
+            "after": 12036
+          }
+        }
+      ],
+      "restored": {
+        "lenis": false,
+        "locked": false,
+        "overflow": "visible"
+      },
+      "afterResize": {
+        "before": 12036,
+        "after": 12316
+      },
+      "cancelled": [
+        {
+          "selector": "video",
+          "prevented": false
+        },
+        {
+          "selector": ".footer-garden-field",
+          "prevented": false
+        },
+        {
+          "selector": "main",
+          "prevented": false
+        }
+      ],
+      "desktopLenis": true,
+      "errors": []
+    }
+  ],
+  "failures": []
+}

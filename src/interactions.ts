@@ -39,6 +39,12 @@ export function initHeaderMarquee(){
 }
 
 export function initNavigationMotion(){
+ // Derive the scroll lock from actual dialogs, including history restoration
+ // and interrupted close animations, rather than leaving a stale body class.
+ const syncDialogLock=()=>document.body.classList.toggle('modal-open',Boolean(document.querySelector('dialog[open]')));
+ const dialogObserver=new MutationObserver(syncDialogLock);
+ dialogObserver.observe(document.body,{subtree:true,attributes:true,attributeFilter:['open']});
+ window.addEventListener('pageshow',syncDialogLock);syncDialogLock();
  const menu=document.querySelector<HTMLDialogElement>('.mobile-menu');
  const toggle=document.querySelector<HTMLButtonElement>('.menu-toggle');
  let closing=false;let generation=0;let animations:Animation[]=[];

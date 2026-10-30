@@ -1,40 +1,221 @@
 {
   "results": [
     {
-      "before": {
-        "headerBackground": "none",
-        "touchEnabled": true,
-        "coarse": true
+      "engine": "edge",
+      "gesture": "trusted touch swipe",
+      "initial": {
+        "lenis": false,
+        "locked": false,
+        "overflow": "visible"
       },
-      "atRelease": 293,
-      "samples": [
-        299,
-        300,
-        301,
-        301,
-        302,
-        302,
-        302,
-        302,
-        302,
-        302,
-        302,
-        302
+      "moves": [
+        {
+          "selector": ".immersive-hero",
+          "before": 0,
+          "after": 338,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".original-services",
+          "before": 3516,
+          "after": 3971,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".home-work",
+          "before": 5554,
+          "after": 6002,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".home-approach",
+          "before": 9187,
+          "after": 9686,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".footer-garden-field",
+          "before": 12529,
+          "after": 12122,
+          "plants": null,
+          "afterPlants": null
+        }
       ],
-      "moving": true,
-      "forward": true,
-      "stopped": true,
-      "resumed": true,
-      "effects": [
-        "none",
-        "none",
-        "none",
-        "none",
-        "none",
-        "none"
+      "menus": [
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12110,
+            "after": 12529
+          }
+        },
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12529,
+            "after": 12185
+          }
+        },
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12185,
+            "after": 11726
+          }
+        }
       ],
-      "overflow": false,
-      "reducedLenis": false,
+      "restored": {
+        "lenis": false,
+        "locked": false,
+        "overflow": "visible"
+      },
+      "afterResize": {
+        "before": 11707,
+        "after": 12203
+      },
+      "cancelled": [
+        {
+          "selector": "video",
+          "prevented": false
+        },
+        {
+          "selector": ".footer-garden-field",
+          "prevented": false
+        },
+        {
+          "selector": "main",
+          "prevented": false
+        }
+      ],
+      "desktopLenis": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "gesture": "native scroll fallback",
+      "initial": {
+        "lenis": false,
+        "locked": false,
+        "overflow": "visible"
+      },
+      "moves": [
+        {
+          "selector": ".immersive-hero",
+          "before": 0,
+          "after": 280,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".original-services",
+          "before": 3516,
+          "after": 3796,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".home-work",
+          "before": 5554,
+          "after": 5834,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".home-approach",
+          "before": 9187,
+          "after": 9467,
+          "plants": null,
+          "afterPlants": null
+        },
+        {
+          "selector": ".footer-garden-field",
+          "before": 12529,
+          "after": 12249,
+          "plants": null,
+          "afterPlants": null
+        }
+      ],
+      "menus": [
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12249,
+            "after": 11969
+          }
+        },
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 11969,
+            "after": 12249
+          }
+        },
+        {
+          "locked": true,
+          "after": {
+            "lenis": false,
+            "locked": false,
+            "overflow": "visible"
+          },
+          "movement": {
+            "before": 12249,
+            "after": 11969
+          }
+        }
+      ],
+      "restored": {
+        "lenis": false,
+        "locked": false,
+        "overflow": "visible"
+      },
+      "afterResize": {
+        "before": 11969,
+        "after": 12249
+      },
+      "cancelled": [
+        {
+          "selector": "video",
+          "prevented": false
+        },
+        {
+          "selector": ".footer-garden-field",
+          "prevented": false
+        },
+        {
+          "selector": "main",
+          "prevented": false
+        }
+      ],
+      "desktopLenis": true,
       "errors": []
     }
   ],

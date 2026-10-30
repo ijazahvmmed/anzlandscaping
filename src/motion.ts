@@ -20,12 +20,14 @@ export function initSiteMotion(){
  ScrollTrigger.config({ignoreMobileResize:true});
  const progress=document.createElement('div');progress.className='scroll-progress';progress.setAttribute('aria-hidden','true');document.body.append(progress);
  const context=gsap.context(()=>{
-  // Keep touch gestures direct, then apply a short, controlled inertia tail.
-  mm.add('(prefers-reduced-motion:no-preference)',()=>{
-   lenis=new Lenis({lerp:.07,smoothWheel:true,wheelMultiplier:.9,syncTouch:true,syncTouchLerp:.12,touchInertiaExponent:1.35,touchMultiplier:1,autoRaf:false,anchors:{offset:-108},prevent:node=>Boolean(node.closest('dialog,[data-native-scroll]'))});
+  // Touch scrolling stays entirely with the browser, including momentum and
+  // toolbar resizing. Lenis is a desktop wheel enhancement only.
+  mm.add('(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference)',()=>{
+   lenis=new Lenis({lerp:.07,smoothWheel:true,wheelMultiplier:.9,syncTouch:false,autoRaf:false,anchors:{offset:-108},prevent:node=>Boolean(node.closest('dialog,[data-native-scroll]'))});
    lenis.on('scroll',ScrollTrigger.update);
    const raf=(time:number)=>lenis?.raf(time*1000);gsap.ticker.add(raf);gsap.ticker.lagSmoothing(0);
-   const observe=new MutationObserver(()=>{document.body.classList.contains('modal-open')?lenis?.stop():lenis?.start();});observe.observe(document.body,{attributes:true,attributeFilter:['class']});
+   const syncModal=()=>{document.querySelector('dialog[open]')?lenis?.stop():lenis?.start();};syncModal();
+   const observe=new MutationObserver(syncModal);observe.observe(document.body,{attributes:true,attributeFilter:['open'],subtree:true});
    return()=>{observe.disconnect();gsap.ticker.remove(raf);lenis?.destroy();lenis=undefined;};
   });
   gsap.to(progress,{scaleX:1,ease:'none',scrollTrigger:{start:0,end:'max',scrub:.1}});
