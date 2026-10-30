@@ -10,3 +10,5 @@ Open Graph and fallback LocalBusiness imagery use the video poster. Source name 
   "source": "hf_20261030_135358_88044ff8-577c-44e3-8c6d-e47cd94e6883.mp4",
   "sha256": "0cf95692e83a7c5475c9af5b714a2fc6104483fa8ffe58dde2f7352ccb69ceb9"
 }
+
+Verification: production build and changed PHP lint pass. Edge and WebKit confirm inline muted playback, pause/resume, loop restart, offscreen pause, 20% overlay, no horizontal overflow at 1440/768/390/320px, zero hero accessibility violations and no MP4 request with reduced motion. See `qa/hero-video-results.json`.
