@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "before": {
+        "headerBackground": "none",
+        "touchEnabled": true,
+        "coarse": true
+      },
+      "atRelease": 293,
+      "samples": [
+        299,
+        300,
+        301,
+        301,
+        302,
+        302,
+        302,
+        302,
+        302,
+        302,
+        302,
+        302
+      ],
+      "moving": true,
+      "forward": true,
+      "stopped": true,
+      "resumed": true,
+      "effects": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "overflow": false,
+      "reducedLenis": false,
+      "errors": []
+    }
+  ],
+  "failures": []
+}

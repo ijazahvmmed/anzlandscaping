@@ -12,7 +12,7 @@
 <?php endforeach; ?>
 <a href="<?php echo anz_url('/projects/'); ?>">Projects</a><a href="<?php echo anz_url('/about-us/'); ?>">About</a><a href="<?php echo anz_url('/blog/'); ?>">Insights</a>
 
-<div class="nav-ribbon" aria-hidden="true"><div class="nav-ribbon-track"><?php for($copy=0;$copy<2;$copy++): ?><div class="header-marquee-group"><span>Landscape design</span><i></i><span>Office plants</span><i></i><span>Plant maintenance</span><i></i></div><?php endfor; ?></div></div><button class="header-marquee-toggle" type="button" aria-label="Pause header marquee" aria-pressed="false" hidden><span aria-hidden="true">Ⅱ</span></button>
+<div class="nav-ribbon" aria-hidden="true"><div class="nav-ribbon-track"><?php for($copy=0;$copy<2;$copy++): ?><div class="header-marquee-group"><span>Landscape design</span><i></i><span>Office plants</span><i></i><span>Plant maintenance</span><i></i></div><?php endfor; ?></div></div>
 
 </nav>
 <?php anz_link('/contact-us/','Start a project','header-cta'); ?>
