@@ -1,0 +1,607 @@
+[
+  {
+    "width": 1440,
+    "path": "/",
+    "overflow": false,
+    "hero": {
+      "width": 920,
+      "left": 260,
+      "right": 260,
+      "centerError": 0
+    },
+    "cover": null,
+    "cards": [
+      544.40625,
+      544.40625
+    ],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/projects/",
+    "overflow": false,
+    "hero": null,
+    "cover": null,
+    "cards": [
+      544.40625,
+      544.40625
+    ],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "path": "/projects/bhive-premium/",
+    "overflow": false,
+    "hero": null,
+    "cover": {
+      "width": 1000,
+      "left": 220,
+      "right": 220,
+      "centerError": 0
+    },
+    "cards": [],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "path": "/",
+    "overflow": false,
+    "hero": {
+      "width": 920,
+      "left": 52,
+      "right": 52,
+      "centerError": 0
+    },
+    "cover": null,
+    "cards": [
+      453.046875,
+      453.046875
+    ],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "path": "/projects/",
+    "overflow": false,
+    "hero": null,
+    "cover": null,
+    "cards": [
+      453.046875,
+      453.046875
+    ],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "path": "/projects/bhive-premium/",
+    "overflow": false,
+    "hero": null,
+    "cover": {
+      "width": 942.078125,
+      "left": 40.953125,
+      "right": 40.96875,
+      "centerError": 0.0078125
+    },
+    "cards": [],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "path": "/",
+    "overflow": false,
+    "hero": {
+      "width": 706.5625,
+      "left": 30.71875,
+      "right": 30.71875,
+      "centerError": 0
+    },
+    "cover": null,
+    "cards": [
+      340.28125,
+      340.28125
+    ],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "path": "/projects/",
+    "overflow": false,
+    "hero": null,
+    "cover": null,
+    "cards": [
+      340.28125,
+      340.28125
+    ],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "path": "/projects/bhive-premium/",
+    "overflow": false,
+    "hero": null,
+    "cover": {
+      "width": 706.546875,
+      "left": 30.71875,
+      "right": 30.734375,
+      "centerError": 0.0078125
+    },
+    "cards": [],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/",
+    "overflow": false,
+    "hero": {
+      "width": 346,
+      "left": 22,
+      "right": 22,
+      "centerError": 0
+    },
+    "cover": null,
+    "cards": [
+      346,
+      346
+    ],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/projects/",
+    "overflow": false,
+    "hero": null,
+    "cover": null,
+    "cards": [
+      346,
+      346
+    ],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "path": "/projects/bhive-premium/",
+    "overflow": false,
+    "hero": null,
+    "cover": {
+      "width": 346,
+      "left": 22,
+      "right": 22,
+      "centerError": 0
+    },
+    "cards": [],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "path": "/",
+    "overflow": false,
+    "hero": {
+      "width": 276,
+      "left": 22,
+      "right": 22,
+      "centerError": 0
+    },
+    "cover": null,
+    "cards": [
+      276,
+      276
+    ],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "path": "/projects/",
+    "overflow": false,
+    "hero": null,
+    "cover": null,
+    "cards": [
+      276,
+      276
+    ],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "path": "/projects/bhive-premium/",
+    "overflow": false,
+    "hero": null,
+    "cover": {
+      "width": 276,
+      "left": 22,
+      "right": 22,
+      "centerError": 0
+    },
+    "cards": [],
+    "equalCards": true,
+    "photos": [
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      {
+        "fit": "contain",
+        "position": "50% 50%"
+      }
+    ]
+  }
+]

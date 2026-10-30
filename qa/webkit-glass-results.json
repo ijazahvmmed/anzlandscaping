@@ -1,0 +1,127 @@
+{
+  "engine": "webkit",
+  "buttonChanges": true,
+  "iconCentered": true,
+  "lens": {
+    "opacity": "1",
+    "width": 66.578125
+  },
+  "dropdown": {
+    "visible": "visible",
+    "left": 290.15625,
+    "right": 1110.15625,
+    "top": 97,
+    "bottom": 382
+  },
+  "reflow": [
+    {
+      "width": 1440,
+      "path": "/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "path": "/workplace-greenery/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 1440,
+      "path": "/projects/bhive-premium/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "path": "/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "path": "/workplace-greenery/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 1024,
+      "path": "/projects/bhive-premium/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "path": "/workplace-greenery/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 768,
+      "path": "/projects/bhive-premium/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "path": "/workplace-greenery/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 390,
+      "path": "/projects/bhive-premium/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "path": "/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "path": "/workplace-greenery/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    },
+    {
+      "width": 320,
+      "path": "/projects/bhive-premium/",
+      "overflow": false,
+      "titleClear": true,
+      "broken": 0
+    }
+  ],
+  "axe": [],
+  "mobileAxe": [],
+  "reduced": true,
+  "errors": []
+}

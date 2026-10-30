@@ -1,0 +1,127 @@
+{
+  "results": [
+    {
+      "engine": "edge",
+      "width": 1440,
+      "overflow": false,
+      "footerOverflow": false,
+      "links": [],
+      "legal": 4,
+      "contact": true
+    },
+    {
+      "engine": "edge",
+      "width": 1440,
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "width": 1024,
+      "overflow": false,
+      "footerOverflow": false,
+      "links": [],
+      "legal": 4,
+      "contact": true
+    },
+    {
+      "engine": "edge",
+      "width": 768,
+      "overflow": false,
+      "footerOverflow": false,
+      "links": [],
+      "legal": 4,
+      "contact": true
+    },
+    {
+      "engine": "edge",
+      "width": 390,
+      "overflow": false,
+      "footerOverflow": false,
+      "links": [],
+      "legal": 4,
+      "contact": true
+    },
+    {
+      "engine": "edge",
+      "width": 390,
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "width": 320,
+      "overflow": false,
+      "footerOverflow": false,
+      "links": [],
+      "legal": 4,
+      "contact": true
+    },
+    {
+      "engine": "edge",
+      "revealed": true,
+      "backToTop": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "overflow": false,
+      "footerOverflow": false,
+      "links": [],
+      "legal": 4,
+      "contact": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "overflow": false,
+      "footerOverflow": false,
+      "links": [],
+      "legal": 4,
+      "contact": true
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "overflow": false,
+      "footerOverflow": false,
+      "links": [],
+      "legal": 4,
+      "contact": true
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "overflow": false,
+      "footerOverflow": false,
+      "links": [],
+      "legal": 4,
+      "contact": true
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "overflow": false,
+      "footerOverflow": false,
+      "links": [],
+      "legal": 4,
+      "contact": true
+    },
+    {
+      "engine": "webkit",
+      "revealed": true,
+      "backToTop": true,
+      "errors": []
+    }
+  ],
+  "failures": []
+}

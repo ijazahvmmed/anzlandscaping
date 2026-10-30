@@ -1,0 +1,12 @@
+{
+  "megaOpen": true,
+  "megaClosed": true,
+  "sticky": {
+    "position": "fixed",
+    "scrolled": true
+  },
+  "mobile": true,
+  "material": "http://127.0.0.1:8765/wp-content/themes/anz-2027-proof/assets/media/3806.webp",
+  "overflow": false,
+  "errors": []
+}

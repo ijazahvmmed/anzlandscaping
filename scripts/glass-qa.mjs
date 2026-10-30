@@ -1,0 +1,33 @@
+import {chromium,webkit} from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+import fs from 'node:fs/promises';
+const isWebkit=process.argv.includes('--webkit');
+const browser=isWebkit?await webkit.launch():await chromium.launch({channel:'msedge'});
+const context=await browser.newContext({viewport:{width:1440,height:1000}});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:8765/',{waitUntil:'networkidle'});await page.waitForTimeout(1600);
+const button=page.locator('.hero-copy>.split-button');
+const measure=()=>button.evaluate(el=>({fill:getComputedStyle(el,'::before').transform,panelWidth:getComputedStyle(el,'::before').width,color:getComputedStyle(el).color,icon:el.querySelector('.button-icon').getBoundingClientRect().toJSON(),arrow:el.querySelector('.button-icon>span+span').getBoundingClientRect().toJSON()}));
+const before=await measure();await button.hover();await page.waitForTimeout(850);const after=await measure();
+const iconCentered=Math.abs((after.icon.x+after.icon.width/2)-(after.arrow.x+after.arrow.width/2))<1&&Math.abs((after.icon.y+after.icon.height/2)-(after.arrow.y+after.arrow.height/2))<1;
+await page.screenshot({path:`qa/${isWebkit?'webkit-':''}glass-button-hover.png`});
+await page.locator('.desktop-nav>a').first().hover();await page.waitForTimeout(600);
+const lens=await page.locator('.nav-lens').evaluate(el=>({opacity:getComputedStyle(el).opacity,width:el.getBoundingClientRect().width}));
+await page.locator('.nav-group').first().hover();await page.waitForTimeout(650);
+const dropdown=await page.locator('.mega-menu').first().evaluate(el=>{const r=el.getBoundingClientRect();return {visible:getComputedStyle(el).visibility,left:r.left,right:r.right,top:r.top,bottom:r.bottom};});
+await page.screenshot({path:`qa/${isWebkit?'webkit-':''}glass-navigation.png`});
+const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
+await page.keyboard.press('Escape');await page.waitForTimeout(450);await page.mouse.move(1400,500);await page.screenshot({path:`qa/${isWebkit?'webkit-':''}glass-home-desktop.png`});
+const reflow=[];
+for(const width of [1440,1024,768,390,320]){await page.setViewportSize({width,height:900});for(const path of ['/','/workplace-greenery/','/projects/bhive-premium/']){
+ await page.goto('http://127.0.0.1:8765'+path,{waitUntil:'networkidle'});await page.waitForTimeout(450);
+ reflow.push({width,path,...await page.evaluate(()=>{const title=document.querySelector('h1').getBoundingClientRect(),header=document.querySelector('.site-header').getBoundingClientRect();return {overflow:document.documentElement.scrollWidth>innerWidth,titleClear:title.top>=header.bottom-2,broken:[...document.images].filter(img=>img.complete&&!img.naturalWidth).length};})});
+}}
+await page.setViewportSize({width:390,height:844});await page.goto('http://127.0.0.1:8765/',{waitUntil:'networkidle'});await page.waitForTimeout(1300);await page.screenshot({path:`qa/${isWebkit?'webkit-':''}glass-home-mobile.png`});
+await page.getByRole('button',{name:'Menu',exact:false}).click();await page.waitForTimeout(800);await page.screenshot({path:`qa/${isWebkit?'webkit-':''}glass-drawer.png`});
+const mobileAxe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
+await page.keyboard.press('Escape');await page.waitForTimeout(450);
+await page.emulateMedia({reducedMotion:'reduce'});await page.setViewportSize({width:1440,height:900});await page.reload({waitUntil:'networkidle'});await page.locator('.desktop-nav>a').first().hover();
+const reduced=await page.locator('.nav-ribbon>span').evaluate(el=>getComputedStyle(el).animationName==='none');
+const results={engine:isWebkit?'webkit':'edge',buttonChanges:before.panelWidth!==after.panelWidth,iconCentered,lens,dropdown,reflow,axe:axe.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})),mobileAxe:mobileAxe.violations.map(v=>v.id),reduced,errors};
+await fs.writeFile(`qa/${isWebkit?'webkit-':''}glass-results.json`,JSON.stringify(results,null,2));
+console.log(JSON.stringify({...results,reflow:reflow.filter(r=>r.overflow||!r.titleClear||r.broken)},null,2));await browser.close();

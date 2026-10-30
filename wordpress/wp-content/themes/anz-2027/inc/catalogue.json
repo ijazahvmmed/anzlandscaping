@@ -1,0 +1,512 @@
+[
+  {
+    "id": 721,
+    "path": "/services/terrace-garden-services-bangalore/",
+    "kind": "service",
+    "title": "Terrace Garden",
+    "headline": "Rooftop gardens and terrace planting.",
+    "intro": "Bring planting, places to sit and an outdoor rhythm to your rooftop. Terrace gardens begin with the practical details: structure, waterproofing, drainage and access.",
+    "scope": [
+      "Roof use and access",
+      "Planting and planters",
+      "Watering and drainage"
+    ],
+    "faq": [
+      "Can any terrace become a garden?",
+      "Suitability depends on the structure, permitted loads, waterproofing and drainage. Arrange a site review and obtain structural advice before installation."
+    ],
+    "images": [
+      "3825",
+      "3824"
+    ],
+    "workplace": false,
+    "variant": 0
+  },
+  {
+    "id": 1027,
+    "path": "/projects/bhive-premium/",
+    "kind": "project",
+    "title": "BHIVE Premium",
+    "location": "HSR Campus - Bangalore",
+    "category": "Commercial",
+    "images": [
+      "2304",
+      "2307",
+      "2305",
+      "2306"
+    ],
+    "intro": "A photographic look at BHIVE Premium from the ANZ project portfolio."
+  },
+  {
+    "id": 1301,
+    "path": "/services/vertical-garden-services-bangalore/",
+    "kind": "service",
+    "title": "Vertical Garden",
+    "headline": "Vertical planting systems and green walls.",
+    "intro": "Vertical gardens bring planting into spaces where ground area is limited. ANZ plans and installs green walls with attention to support, irrigation and continuing access for care.",
+    "scope": [
+      "Wall and support review",
+      "Plant selection",
+      "Watering and ongoing care"
+    ],
+    "faq": [
+      "What should I check before adding a green wall?",
+      "Discuss light, wall condition, access, drainage and irrigation. The planting and support system should suit the site and its maintenance arrangements."
+    ],
+    "images": [
+      "2843",
+      "3934"
+    ],
+    "workplace": true,
+    "variant": 1
+  },
+  {
+    "id": 1303,
+    "path": "/services/villa-landscaping-in-bangalore/",
+    "kind": "service",
+    "title": "Villa Landscaping",
+    "headline": "Garden design and installation for villas.",
+    "intro": "A villa garden should belong to its architecture and the people who use it. Connect planting, pathways and places to pause through a landscape designed around your home.",
+    "scope": [
+      "Garden layout",
+      "Planting and outdoor spaces",
+      "Installation and aftercare"
+    ],
+    "faq": [
+      "Can the garden work with an existing home?",
+      "Share a site plan and photographs of the existing space. Retained planting, access, drainage and how you use the garden help define the scope."
+    ],
+    "images": [
+      "3826",
+      "2844"
+    ],
+    "workplace": false,
+    "variant": 2
+  },
+  {
+    "id": 1305,
+    "path": "/services/pergola-and-fabrication-services-bangalore/",
+    "kind": "service",
+    "title": "Pergola and Fabrication",
+    "headline": "Pergolas, roofing and outdoor structures.",
+    "intro": "Pergolas and fabrication define outdoor rooms. Explore shade, structure and material choices that complement your building, terrace or garden.",
+    "scope": [
+      "Design and fabrication",
+      "Roofing and material options",
+      "Installation"
+    ],
+    "faq": [
+      "Which pergola materials are available?",
+      "The existing ANZ service range includes glass, wood, polycarbonate, retractable roofing, shingle roofs and Mangalore tile gazebos. Confirm current availability and structural requirements for your site."
+    ],
+    "images": [
+      "3803",
+      "3930"
+    ],
+    "workplace": false,
+    "variant": 3
+  },
+  {
+    "id": 1307,
+    "path": "/services/luxury-landscaping-services-bangalore/",
+    "kind": "service",
+    "title": "Luxury Landscapes",
+    "headline": "Planting and landscape finishes.",
+    "intro": "A considered landscape is shaped by proportion, planting and the way a space is lived in. ANZ brings garden design and execution together for bespoke outdoor environments.",
+    "scope": [
+      "Site-specific design",
+      "Planting and material selection",
+      "Landscape execution"
+    ],
+    "faq": [
+      "Where does a custom landscape begin?",
+      "Begin with the architecture, site conditions and your intended use. A detailed brief helps establish priorities and a suitable scope before materials are selected."
+    ],
+    "images": [
+      "3840",
+      "3839"
+    ],
+    "workplace": false,
+    "variant": 4
+  },
+  {
+    "id": 1309,
+    "path": "/services/swimming-pool-services-bangalore/",
+    "kind": "service",
+    "title": "Swimming Pools",
+    "headline": "Pool planning and surrounding landscape.",
+    "intro": "Swimming pools are part of a larger outdoor setting. Discuss the pool, its surroundings and the practical systems that need to be coordinated before work begins.",
+    "scope": [
+      "Pool and landscape planning",
+      "Surrounding outdoor space",
+      "Project coordination"
+    ],
+    "faq": [
+      "What pool work can ANZ undertake?",
+      "Share whether you need a new pool, an upgrade or surrounding landscaping. Confirm design, engineering, construction and equipment responsibilities in the written project scope."
+    ],
+    "images": [
+      "3823",
+      "3822"
+    ],
+    "workplace": false,
+    "variant": 0
+  },
+  {
+    "id": 1311,
+    "path": "/services/water-fountains-services-bangalore/",
+    "kind": "service",
+    "title": "Water Fountain and Ponds",
+    "headline": "Fountains, ponds and water features.",
+    "intro": "Fountains and ponds add a focal point to outdoor spaces. Their placement, water systems and care requirements deserve the same attention as the planting around them.",
+    "scope": [
+      "Water-feature planning",
+      "Landscape integration",
+      "Care and access considerations"
+    ],
+    "faq": [
+      "What needs to be planned for a water feature?",
+      "Discuss filtration, circulation, power, cleaning access and safety. These requirements depend on the feature and should be agreed before installation."
+    ],
+    "images": [
+      "3829",
+      "3828"
+    ],
+    "workplace": false,
+    "variant": 1
+  },
+  {
+    "id": 1315,
+    "path": "/services/commercial-landscaping-services-bangalore/",
+    "kind": "service",
+    "title": "Commercial Landscaping",
+    "headline": "Landscape design for commercial sites.",
+    "intro": "From building frontages to shared outdoor grounds, commercial landscapes must balance identity, everyday use and ongoing upkeep. ANZ brings planting and landscape execution into one coordinated scope.",
+    "scope": [
+      "Site and stakeholder brief",
+      "Hardscape and planting",
+      "Execution and maintenance planning"
+    ],
+    "faq": [
+      "Can work be planned around an occupied site?",
+      "Share access restrictions, working-hour requirements and stakeholder approvals. Discuss phasing and practical constraints as part of the site assessment."
+    ],
+    "images": [
+      "2833",
+      "2967"
+    ],
+    "workplace": false,
+    "variant": 2
+  },
+  {
+    "id": 1317,
+    "path": "/services/landscape-irrigation-bangalore/",
+    "kind": "service",
+    "title": "Landscape Irrigation",
+    "headline": "Watering systems for lawns and planting.",
+    "intro": "Irrigation should respond to the landscape it serves. Plan water delivery around planting zones, site conditions and practical access for inspection and maintenance.",
+    "scope": [
+      "Planting-zone assessment",
+      "Water-delivery planning",
+      "Installation and upkeep"
+    ],
+    "faq": [
+      "Can irrigation be added to an existing garden?",
+      "An assessment should check available water supply, planting needs, existing lines and access. Discuss repair or new installation after reviewing the site."
+    ],
+    "images": [
+      "2834",
+      "2968"
+    ],
+    "workplace": false,
+    "variant": 3
+  },
+  {
+    "id": 1319,
+    "path": "/services/softscape-lawn-services-bangalore/",
+    "kind": "service",
+    "title": "Softscape",
+    "headline": "Lawns, planting and garden beds.",
+    "intro": "Softscape brings together lawns, plants and the changing textures of a garden. ANZ selects and installs planting to suit the light, soil and use of the space.",
+    "scope": [
+      "Planting palettes",
+      "Lawns and garden beds",
+      "Installation and care"
+    ],
+    "faq": [
+      "How are plants selected?",
+      "Light, soil, water availability, growth habit and maintenance needs guide the selection. Confirm species and availability when the planting schedule is prepared."
+    ],
+    "images": [
+      "3821",
+      "3846"
+    ],
+    "workplace": false,
+    "variant": 4
+  },
+  {
+    "id": 1321,
+    "path": "/services/hardscape-services-bangalore/",
+    "kind": "service",
+    "title": "Hardscape",
+    "headline": "Paving, paths and landscape structures.",
+    "intro": "Paths, paved areas and landscape edges give a garden its shape. Coordinate materials, levels and drainage with the planting and everyday movement through the site.",
+    "scope": [
+      "Material selection",
+      "Paths and outdoor surfaces",
+      "Installation coordination"
+    ],
+    "faq": [
+      "What should inform a paving choice?",
+      "Consider drainage, slip resistance, heat, access and maintenance as well as appearance. The right material depends on where and how the surface will be used."
+    ],
+    "images": [
+      "3838",
+      "3837"
+    ],
+    "workplace": false,
+    "variant": 0
+  },
+  {
+    "id": 1323,
+    "path": "/services/moss-wall-services-bangalore/",
+    "kind": "service",
+    "title": "Moss Wall",
+    "headline": "Moss wall installations for interiors.",
+    "intro": "Moss wall installations bring a distinctive material quality to interiors. Explore the visual treatment, product type and care requirements for your space.",
+    "scope": [
+      "Wall and interior context",
+      "Texture and design",
+      "Installation requirements"
+    ],
+    "faq": [
+      "Is the moss living or preserved?",
+      "Confirm the actual product before specifying light, water or care requirements. Living and preserved systems have different needs; ask ANZ to identify the proposed system in the quote."
+    ],
+    "images": [
+      "3841",
+      "3843"
+    ],
+    "workplace": true,
+    "variant": 1
+  },
+  {
+    "id": 1325,
+    "path": "/services/garden-maintenance-services-bangalore/",
+    "kind": "service",
+    "title": "Garden Maintenance",
+    "headline": "Scheduled garden and plant maintenance.",
+    "intro": "A garden continues to evolve after installation. ANZ provides garden maintenance, with care planned around the plants, site conditions and the work your space needs.",
+    "scope": [
+      "Plant and lawn care",
+      "Pruning and watering",
+      "Site-specific maintenance"
+    ],
+    "faq": [
+      "How often will the team visit?",
+      "Visit frequency and included tasks should be agreed after assessing the site. Ask for a written maintenance scope, including any exclusions or replacement arrangements."
+    ],
+    "images": [
+      "2839",
+      "3815"
+    ],
+    "workplace": true,
+    "variant": 2
+  },
+  {
+    "id": 1327,
+    "path": "/services/plant-rentals-services-bangalore/",
+    "kind": "service",
+    "title": "Office Plant Rental",
+    "headline": "Office plant rental and maintenance.",
+    "intro": "Office plant rental, thoughtfully placed and cared for. ANZ helps select, deliver and install plants suited to your workplace, with ongoing maintenance arranged around the space.",
+    "scope": [
+      "Plant selection",
+      "Delivery and placement",
+      "Watering, pruning and agreed care"
+    ],
+    "faq": [
+      "What is included in office plant rental?",
+      "ANZ’s existing service describes plant selection, installation and ongoing maintenance. Confirm plant quantities, visit frequency, rental duration and replacement terms in your quote."
+    ],
+    "images": [
+      "3844",
+      "3845"
+    ],
+    "workplace": true,
+    "variant": 3
+  },
+  {
+    "id": 1329,
+    "path": "/services/frp-planters-services-bangalore/",
+    "kind": "service",
+    "title": "FRP Planters",
+    "headline": "Planter sizes, finishes and placement.",
+    "intro": "FRP planters provide a way to introduce planting to interior and exterior spaces. Explore forms and finishes alongside the practical needs of your planting scheme.",
+    "scope": [
+      "Planter selection",
+      "Placement and planting",
+      "Drainage requirements"
+    ],
+    "faq": [
+      "Can FRP planters be used outdoors?",
+      "Confirm the proposed product’s suitability, finish and drainage arrangement. Ask for the currently available sizes and options rather than relying on a fixed catalogue."
+    ],
+    "images": [
+      "3833",
+      "3835"
+    ],
+    "workplace": true,
+    "variant": 4
+  },
+  {
+    "id": 2326,
+    "path": "/projects/goodearth-malhar/",
+    "kind": "project",
+    "title": "GoodEarth Malhar",
+    "location": "Medley - Bangalore",
+    "category": "Residential",
+    "images": [
+      "2350",
+      "2351"
+    ],
+    "intro": "A photographic look at GoodEarth Malhar from the ANZ project portfolio."
+  },
+  {
+    "id": 2328,
+    "path": "/projects/prime-square/",
+    "kind": "project",
+    "title": "Prime Square",
+    "location": "Bangalore",
+    "category": "Commercial",
+    "images": [
+      "2365",
+      "2358",
+      "2359",
+      "2360",
+      "2361",
+      "2362",
+      "2363",
+      "2364",
+      "2366",
+      "2367"
+    ],
+    "intro": "A photographic look at Prime Square from the ANZ project portfolio."
+  },
+  {
+    "id": 2330,
+    "path": "/projects/skylark-mansions/",
+    "kind": "project",
+    "title": "Skylark Mansions",
+    "location": "Bangalore",
+    "category": "Residential",
+    "images": [
+      "2371",
+      "2372",
+      "2373",
+      "2374",
+      "2375",
+      "2376"
+    ],
+    "intro": "A photographic look at Skylark Mansions from the ANZ project portfolio."
+  },
+  {
+    "id": 2332,
+    "path": "/projects/iampl/",
+    "kind": "project",
+    "title": "IAMPL",
+    "location": "SEZ Tech Park, Hosur - Tamilnadu",
+    "category": "Commercial",
+    "images": [
+      "2384",
+      "2380",
+      "2381",
+      "2382",
+      "2383",
+      "2385"
+    ],
+    "intro": "A photographic look at IAMPL from the ANZ project portfolio."
+  },
+  {
+    "id": 2334,
+    "path": "/projects/plotted-development/",
+    "kind": "project",
+    "title": "Plotted Development",
+    "location": "Devanahalli - Bangalore",
+    "category": "Commercial",
+    "images": [
+      "2397",
+      "2398",
+      "2390",
+      "2391",
+      "2389",
+      "2392",
+      "2393",
+      "2394",
+      "2395",
+      "2396",
+      "2399",
+      "2400",
+      "2401"
+    ],
+    "intro": "A photographic look at Plotted Development from the ANZ project portfolio."
+  },
+  {
+    "id": 2336,
+    "path": "/projects/private-farm/",
+    "kind": "project",
+    "title": "Private Farm",
+    "location": "Housur - Tamilnadu",
+    "category": "Residential",
+    "images": [
+      "2405",
+      "2406",
+      "2407",
+      "2408",
+      "2409"
+    ],
+    "intro": "A photographic look at Private Farm from the ANZ project portfolio."
+  },
+  {
+    "id": 2338,
+    "path": "/projects/salarpuria-sattva/",
+    "kind": "project",
+    "title": "Salarpuria Sattva",
+    "location": "Northland, Bangalore",
+    "category": "Residential",
+    "images": [
+      "2415",
+      "2416",
+      "2428",
+      "2413",
+      "2414",
+      "2417",
+      "2418",
+      "2419",
+      "2421",
+      "2420",
+      "2422",
+      "2423",
+      "2424",
+      "2425",
+      "2426",
+      "2427"
+    ],
+    "intro": "A photographic look at Salarpuria Sattva from the ANZ project portfolio."
+  },
+  {
+    "id": 2340,
+    "path": "/projects/terrace-garden/",
+    "kind": "project",
+    "title": "Terrace Garden",
+    "location": "Hebbal - Bangalore",
+    "category": "Residential",
+    "images": [
+      "2433",
+      "2432",
+      "2434",
+      "2435"
+    ],
+    "intro": "A photographic look at Terrace Garden from the ANZ project portfolio."
+  }
+]

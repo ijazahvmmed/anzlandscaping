@@ -1,0 +1,3 @@
+<section class="portfolio-intro section-pad"><h1>Our projects</h1><div><p class="lead">Commercial and residential landscaping by ANZ.</p></div></section>
+<section class="portfolio section-pad" aria-label="Project portfolio"><div class="project-filters" hidden><button data-filter="All" aria-pressed="true">All projects</button><button data-filter="Commercial" aria-pressed="false">Commercial</button><button data-filter="Residential" aria-pressed="false">Residential</button><span class="filter-status" aria-live="polite">9 projects</span></div><div class="project-grid"><?php foreach(anz_catalogue('project') as $n=>$p) anz_project_tile($p,$n); ?></div></section>
+<?php anz_enquiry('Your space could be next.'); ?>

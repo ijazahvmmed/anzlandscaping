@@ -1,0 +1,59 @@
+/* A shared hierarchy replaces the individually oversized display scales. */
+:root{
+ --type-hero:clamp(4rem,7.8vw,7.5rem);
+ --type-page:clamp(2.8rem,5.1vw,4.75rem);
+ --type-chapter:clamp(2.5rem,4vw,3.75rem);
+ --type-section:clamp(2.1rem,3.35vw,3.2rem);
+ --type-card:clamp(1.35rem,2vw,1.9rem);
+ --type-lead:clamp(1.125rem,1.65vw,1.5rem);
+ --display:var(--type-page);
+ --heading:var(--type-section);
+}
+h1{font-size:var(--type-page);line-height:1.07;letter-spacing:-.05em}
+h2{font-size:var(--type-section);line-height:1.12;letter-spacing:-.045em}
+h3{font-size:var(--type-card);line-height:1.15;letter-spacing:-.035em}
+.lead{font-size:var(--type-lead);line-height:1.5}
+.experimental-hero{height:94svh;min-height:780px;max-height:1000px}
+.experimental-hero .hero-copy{top:28%}
+.experimental-hero .hero-copy h1{font-size:var(--type-hero);line-height:.98;letter-spacing:-.06em}
+.experimental-hero .hero-copy h1>span:last-child{margin-top:5px}
+.hero-description{margin-top:30px}
+.experimental-hero .hero-description p{font-size:15px;line-height:1.5}
+.experimental-hero .hero-business{font-size:12px;line-height:1.6;margin-top:20px}
+.declaration-title h2,.pillars .section-heading h2,.selected-work>.section-heading h2{font-size:var(--type-chapter);line-height:1.1;letter-spacing:-.05em}
+.pillar-copy h3,.care-story h2,.collage-copy h2,.scene-heading h2{font-size:var(--type-section);line-height:1.12;letter-spacing:-.045em}
+.scene-frame h3{font-size:var(--type-chapter);line-height:1.08;max-width:640px}
+.declaration-detail .lead{font-size:var(--type-lead);line-height:1.5}
+.enquiry-band h2{font-size:var(--type-chapter);line-height:1.1;max-width:670px}
+.service-hero h1,.pillar-hero h1,.portfolio-intro h1,.project-intro h1,.service-hub-hero h1,.about-hero h1,.contact-layout h1,.article-header h1,.reading-page h1{font-size:var(--type-page);line-height:1.07;letter-spacing:-.05em}
+.service-scope h2,.service-detail h2,.hub-heading h2,.next-project h2,.pillar-editorial h2,.project-overview h2,.form-fallback h2{font-size:var(--type-section);line-height:1.12}
+.service-rows h3,.tile-caption h3,.selected-work .tile-caption h3{font-size:var(--type-card);line-height:1.2}
+.insight-list h2{font-size:clamp(1.6rem,2.5vw,2.4rem);line-height:1.18}
+.pillar-editorial .lead,.service-hub-hero .lead{font-size:var(--type-lead);line-height:1.5}
+.type-ribbon>div{font-size:clamp(3.8rem,8vw,8.5rem)}
+.section-heading,.hub-heading{align-items:end}
+.declaration-title{margin-top:75px}.declaration-detail{margin-top:65px}
+.pillars .section-heading{margin-top:65px;margin-bottom:65px}
+.selected-work>.section-heading{margin-top:65px}
+.enquiry-band{min-height:340px;padding-top:95px;padding-bottom:85px}
+@media(max-width:950px){
+ :root{--type-hero:clamp(3.75rem,9vw,6rem);--type-page:clamp(2.75rem,5.6vw,4rem);--type-section:clamp(2rem,3.8vw,2.8rem);--type-chapter:clamp(2.4rem,4.6vw,3.25rem)}
+ .experimental-hero{min-height:760px}.experimental-hero .hero-copy{top:29%}
+}
+@media(max-width:650px){
+ :root{--type-hero:clamp(3rem,13.4vw,3.75rem);--type-page:clamp(2.3rem,9.4vw,3rem);--type-chapter:clamp(2.2rem,9vw,2.75rem);--type-section:clamp(1.9rem,7.7vw,2.4rem);--type-card:clamp(1.25rem,5.3vw,1.6rem);--type-lead:1.125rem}
+ .experimental-hero{height:100svh;min-height:830px;max-height:1000px}
+ .experimental-hero .hero-copy{top:20%}
+ .experimental-hero .hero-photo{height:45%}
+ .hero-description{margin-top:345px}
+ .experimental-hero .hero-description p{font-size:12px;line-height:1.5}
+ .experimental-hero .hero-business{font-size:10px;margin-top:15px;max-width:270px}
+ .declaration-title{margin-top:50px}.declaration-detail{margin-top:10px}
+ .declaration-detail .lead{font-size:19px}
+ .pillars .section-heading,.selected-work>.section-heading{margin-top:45px;margin-bottom:35px}
+ .collage-copy h2{font-size:clamp(1.85rem,7.5vw,2.3rem)}
+ .enquiry-band{min-height:0;padding-top:65px;padding-bottom:60px}
+ .type-ribbon>div{font-size:3.8rem}
+ .insight-list h2{font-size:1.8rem}
+}
+@media(max-width:360px){.hero-description{margin-top:345px}.experimental-hero{min-height:810px}.experimental-hero .hero-description p{font-size:11px}}

@@ -1,0 +1,16 @@
+{
+  "proofTheme": true,
+  "services": 6,
+  "logos": 18,
+  "certificates": 3,
+  "faq": 5,
+  "originalQuoteForm": 1,
+  "brokenImages": [],
+  "schema": [
+    "LocalBusiness",
+    "WebSite",
+    "FAQPage"
+  ],
+  "status": 200,
+  "passed": true
+}

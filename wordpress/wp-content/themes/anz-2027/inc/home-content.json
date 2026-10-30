@@ -1,0 +1,418 @@
+{
+  "source": "Supplied WordPress export, homepage ID 10, 2026-10-29; user screenshot supplied 2026-10-30",
+  "hero": {
+    "title": [
+      "Excellence in transforming",
+      "corporate spaces."
+    ],
+    "description": "ANZ Landscaping creates stunning, sustainable landscapes with customized solutions for residential, commercial and corporate spaces in Bengaluru.",
+    "image": 3580
+  },
+  "about": {
+    "title": "Why choose ANZ Landscaping?",
+    "paragraphs": [
+      "At ANZ Landscaping, we specialize in commercial landscaping solutions that enhance the aesthetics, functionality and sustainability of business environments. Our expertise lies in crafting professionally designed landscapes that reflect your brand identity while providing a welcoming and refreshing outdoor experience.",
+      "Whether you’re a corporate office, hotel, real estate developer or educational institution, our team brings nature and architecture together to create spaces for productivity and relaxation."
+    ],
+    "image": 3581
+  },
+  "features": [
+    {
+      "title": "Tailored Solutions",
+      "description": "We design landscapes that align with your corporate identity, ensuring a perfect blend of aesthetics and functionality for your business space.",
+      "image": 2805
+    },
+    {
+      "title": "Expert Teams",
+      "description": "Our skilled professionals bring years of experience in large-scale commercial landscaping, delivering innovative & sustainable outdoor solutions.",
+      "image": 2807
+    },
+    {
+      "title": "Timely Execution",
+      "description": "We understand the importance of deadlines and aim to complete projects efficiently without compromising on quality.",
+      "image": 2803
+    },
+    {
+      "title": "Cost-Effective",
+      "description": "Our solutions are designed to be both budget-friendly and environmentally responsible, creating long-lasting and eco-conscious landscapes.",
+      "image": 2804
+    }
+  ],
+  "metrics": [
+    {
+      "value": 18,
+      "suffix": "+",
+      "label": "Successful years"
+    },
+    {
+      "value": 30,
+      "suffix": "+",
+      "label": "Expert team"
+    },
+    {
+      "value": 500,
+      "suffix": "+",
+      "label": "Projects completed"
+    },
+    {
+      "value": 44,
+      "suffix": "+",
+      "label": "Project locations"
+    },
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Awards & recognitions"
+    }
+  ],
+  "services": [
+    {
+      "id": 721,
+      "title": "Terrace Garden",
+      "path": "/services/terrace-garden-services-bangalore/",
+      "image": 3825,
+      "description": "Transform rooftops into lush green spaces with customized terrace garden designs and sustainable landscaping."
+    },
+    {
+      "id": 1301,
+      "title": "Vertical Garden",
+      "path": "/services/vertical-garden-services-bangalore/",
+      "image": 2843,
+      "description": "Enhance walls with vibrant, space-saving vertical gardens that enhance aesthetics and bring planting into your space."
+    },
+    {
+      "id": 1303,
+      "title": "Villa Landscaping",
+      "path": "/services/villa-landscaping-in-bangalore/",
+      "image": 3826,
+      "description": "Create elegant, nature-inspired landscapes that enhance the beauty and functionality of villa exteriors."
+    },
+    {
+      "id": 1305,
+      "title": "Pergola and Fabrication",
+      "path": "/services/pergola-and-fabrication-services-bangalore/",
+      "image": 3803,
+      "description": "Design stylish pergolas and custom fabrications for shaded, comfortable, and visually appealing outdoor spaces."
+    },
+    {
+      "id": 1315,
+      "title": "Commercial Landscaping",
+      "path": "/services/commercial-landscaping-services-bangalore/",
+      "image": 2529,
+      "description": "Develop professional, well-maintained landscapes that elevate commercial properties and enhance their visual appeal."
+    },
+    {
+      "id": 1325,
+      "title": "Garden Maintenance",
+      "path": "/services/garden-maintenance-services-bangalore/",
+      "image": 2839,
+      "description": "Provide regular care, pruning, and upkeep to keep landscapes lush, healthy, and well-maintained."
+    }
+  ],
+  "clients": [
+    {
+      "id": 406,
+      "name": "Brigade Group"
+    },
+    {
+      "id": 405,
+      "name": "Salarpuria Sattva"
+    },
+    {
+      "id": 403,
+      "name": "IndiQube"
+    },
+    {
+      "id": 402,
+      "name": "Prestige Group"
+    },
+    {
+      "id": 400,
+      "name": "Bosch"
+    },
+    {
+      "id": 404,
+      "name": "Apollo Hospitals"
+    },
+    {
+      "id": 401,
+      "name": "BHIVE Workspace"
+    },
+    {
+      "id": 399,
+      "name": "Schindler"
+    },
+    {
+      "id": 476,
+      "name": "The Fern Residency"
+    },
+    {
+      "id": 475,
+      "name": "Courtyard by Marriott"
+    },
+    {
+      "id": 474,
+      "name": "HAL"
+    },
+    {
+      "id": 473,
+      "name": "TVS"
+    },
+    {
+      "id": 472,
+      "name": "Sobha"
+    },
+    {
+      "id": 471,
+      "name": "Pleasure Spaces"
+    },
+    {
+      "id": 470,
+      "name": "Puravankara"
+    },
+    {
+      "id": 469,
+      "name": "Valueport"
+    },
+    {
+      "id": 468,
+      "name": "Embassy"
+    },
+    {
+      "id": 467,
+      "name": "iDeLifus"
+    }
+  ],
+  "awards": [
+    {
+      "id": 282,
+      "title": "Best Landscaping Services Award",
+      "detail": "Karnataka Business Awards · 2023"
+    },
+    {
+      "id": 283,
+      "title": "Certificate of Appreciation – BAIF",
+      "detail": "Business Achievers India Foundation · 2023"
+    },
+    {
+      "id": 291,
+      "title": "KTCC Membership Certificate",
+      "detail": "Original membership certificate · 2023–2024"
+    }
+  ],
+  "publication": {
+    "id": 2671,
+    "title": "Siliconindia recognition, 2024",
+    "description": "ANZ Landscaping was featured for advancing urban greenery through technology."
+  },
+  "faq": [
+    {
+      "question": "What landscaping services does ANZ provide?",
+      "answer": "ANZ provides terrace gardens, vertical gardens, villa landscaping, pergola and fabrication, commercial landscaping and garden maintenance. Office plant rental and other planting services are also available."
+    },
+    {
+      "question": "Who does ANZ Landscaping work with?",
+      "answer": "ANZ works on residential, commercial and corporate spaces, including corporate offices, hotels, real estate developments and educational institutions."
+    },
+    {
+      "question": "Where is ANZ Landscaping based?",
+      "answer": "ANZ Landscaping is based in Indiranagar, Bengaluru, Karnataka. Contact the team with your site location to discuss service availability and project requirements."
+    },
+    {
+      "question": "Does ANZ provide ongoing garden maintenance?",
+      "answer": "Yes. ANZ provides regular garden care, pruning and upkeep. Contact the team to discuss the tasks and maintenance schedule your landscape needs."
+    },
+    {
+      "question": "How can I request a landscaping quote?",
+      "answer": "Use the enquiry form or call +91 98452 92729. Share your location, the service you need and your budget so the team can discuss the next steps."
+    }
+  ],
+  "seo": {
+    "title": "Commercial & Residential Landscaping Bangalore | ANZ",
+    "description": "ANZ Landscaping creates sustainable landscapes for residential, commercial and corporate spaces in Bengaluru. Explore our services, projects and garden care."
+  },
+  "assets": {
+    "2805": {
+      "id": 2805,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/03/custom-solutions.png",
+      "file": "assets/media/original-home/2805.png",
+      "bytes": 15337,
+      "sha256": "e29a68defb5db6d15f7ee6b7c8424ddca8a8a6028b1812af6c44db38408a7f92"
+    },
+    "2807": {
+      "id": 2807,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/03/expert-team.png",
+      "file": "assets/media/original-home/2807.png",
+      "bytes": 13866,
+      "sha256": "ddd7ee2ccfdc3d6d2ac342027fc37c54e83f6eb495d3c2a446a54d42b9136eb0"
+    },
+    "2803": {
+      "id": 2803,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/03/timely-execution-2.png",
+      "file": "assets/media/original-home/2803.png",
+      "bytes": 6942,
+      "sha256": "d6a5bfa0cb486f4971bf7bb389c7468b5d6ae811433d66e8a8f9d0979265e50d"
+    },
+    "2804": {
+      "id": 2804,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/03/cost-effective.png",
+      "file": "assets/media/original-home/2804.png",
+      "bytes": 14314,
+      "sha256": "d3efb74576b2170ba27fafe89001b935d80c17eca23abc1150bf4c3912a8ca15"
+    },
+    "406": {
+      "id": 406,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc1.webp",
+      "file": "assets/media/original-home/406.webp",
+      "bytes": 6578,
+      "sha256": "55743c7a0c8cd934a701b27df24c7becfeca08422448c4e240de54c0c561c714"
+    },
+    "405": {
+      "id": 405,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc2.webp",
+      "file": "assets/media/original-home/405.webp",
+      "bytes": 8252,
+      "sha256": "7788a8546e455e37f8099ca5e5d8c07b20c39d940140d16c61a1ca8d415f6743"
+    },
+    "403": {
+      "id": 403,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc4.webp",
+      "file": "assets/media/original-home/403.webp",
+      "bytes": 7982,
+      "sha256": "9cd1b9795c258f318e3571e93a17f887733eefb9ac3ec852c3e0b98e2b761b8e"
+    },
+    "402": {
+      "id": 402,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc5.webp",
+      "file": "assets/media/original-home/402.webp",
+      "bytes": 8588,
+      "sha256": "cc2925b2510c80d60e72fa1b04be095ff95c25c6319e32962dab7983921da838"
+    },
+    "400": {
+      "id": 400,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc7.webp",
+      "file": "assets/media/original-home/400.webp",
+      "bytes": 7440,
+      "sha256": "8b061e0b2860832d0be3e0be2e6b9b70a232335e03b00bdcf576e0f79889bd6e"
+    },
+    "404": {
+      "id": 404,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc3.webp",
+      "file": "assets/media/original-home/404.webp",
+      "bytes": 10974,
+      "sha256": "b2191cde911fa4ac4e264ee219b17b6a753eb491f5acd5083a56694b0a1be252"
+    },
+    "401": {
+      "id": 401,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc6.webp",
+      "file": "assets/media/original-home/401.webp",
+      "bytes": 7810,
+      "sha256": "eba74afb5e160d99ae47cfb531fb456d0dc64d1655118b2f7dda60b7d85aafa9"
+    },
+    "399": {
+      "id": 399,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc8.webp",
+      "file": "assets/media/original-home/399.webp",
+      "bytes": 6066,
+      "sha256": "9d97d00ea2ca75e11da94f41f6fceb216c250a32ed0448c395ae83e2b504ee32"
+    },
+    "476": {
+      "id": 476,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc9.webp",
+      "file": "assets/media/original-home/476.webp",
+      "bytes": 5142,
+      "sha256": "5e8dfd067f89b6880794a4a36bb336bb31fcaacd081da1a65b71a252bdbde08b"
+    },
+    "475": {
+      "id": 475,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc10.webp",
+      "file": "assets/media/original-home/475.webp",
+      "bytes": 2024,
+      "sha256": "11eeba44d9e8bc8244605ee91941cbf38a8fb0cdf1a249effdb3e393094bd367"
+    },
+    "474": {
+      "id": 474,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc11.webp",
+      "file": "assets/media/original-home/474.webp",
+      "bytes": 5070,
+      "sha256": "e39cd523978297b0c4a93ea41ba22773c63efb4ff0f94f9b836d5b1883ac1d64"
+    },
+    "473": {
+      "id": 473,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc12.webp",
+      "file": "assets/media/original-home/473.webp",
+      "bytes": 2652,
+      "sha256": "560bda5b52f190be5db338438f7ed0cce549c6e955ced464afc1585acdc0be22"
+    },
+    "472": {
+      "id": 472,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc13.webp",
+      "file": "assets/media/original-home/472.webp",
+      "bytes": 2564,
+      "sha256": "f614419d47013f21b9dc85c212a9a1d493f9bde0b650bf1e09a49aa72e39b3f3"
+    },
+    "471": {
+      "id": 471,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc14.webp",
+      "file": "assets/media/original-home/471.webp",
+      "bytes": 2826,
+      "sha256": "425c1f77a02381e46cc324f2911e60f6e2652e59928e6b650be539d2a4d3374b"
+    },
+    "470": {
+      "id": 470,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc15.webp",
+      "file": "assets/media/original-home/470.webp",
+      "bytes": 2230,
+      "sha256": "b8a42124cbfa61bc6f4dcf5199f14922309a699da2db57f16e368a0b933ed7a2"
+    },
+    "469": {
+      "id": 469,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc16.webp",
+      "file": "assets/media/original-home/469.webp",
+      "bytes": 2256,
+      "sha256": "cb1b41ed2767aa1e95eb0e2ef317ee7141fcf632aaf4f24b8db4b3995a3d2ff6"
+    },
+    "468": {
+      "id": 468,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc17.webp",
+      "file": "assets/media/original-home/468.webp",
+      "bytes": 2428,
+      "sha256": "16585d15d9a2b55681195008650c94ea82bd7b08beb17ca739313604b6ddfddf"
+    },
+    "467": {
+      "id": 467,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/anzc18.webp",
+      "file": "assets/media/original-home/467.webp",
+      "bytes": 3120,
+      "sha256": "1c469f9c1443d09751b2f102165b022cc171c235e104f0b9aa55b15c50be0d64"
+    },
+    "282": {
+      "id": 282,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/ANZ-WC-edsg.webp",
+      "file": "assets/media/original-home/282.webp",
+      "bytes": 110534,
+      "sha256": "dd8953f23fa38b84aeeb0ace76824090cd08cd55b168c3fe30c3aaf29643e543"
+    },
+    "283": {
+      "id": 283,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/ANZ-AC-ewjfn.webp",
+      "file": "assets/media/original-home/283.webp",
+      "bytes": 91386,
+      "sha256": "482912777c0e997358469562828d81cbbf99fe75eabdfcd5229cb27755189eef"
+    },
+    "291": {
+      "id": 291,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/02/ANZ-MEM-evdsf.webp",
+      "file": "assets/media/original-home/291.webp",
+      "bytes": 130498,
+      "sha256": "f1ba9b6fef86769b09b70fd29b1971cf4a0d2fcb1b22ef9797074fc42506d5ff"
+    },
+    "2671": {
+      "id": 2671,
+      "source_url": "https://anzlandscaping.in/wp-content/uploads/2025/03/ANZ-SImzn.webp",
+      "file": "assets/media/original-home/2671.webp",
+      "bytes": 42502,
+      "sha256": "66693daf4ae335a8268d417ebd1fd08b00ae6dbda266bd7880ac2f7d19dbbf74"
+    }
+  }
+}

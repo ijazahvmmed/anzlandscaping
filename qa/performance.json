@@ -1,0 +1,14 @@
+{
+  "lcp": 1368,
+  "cls": 0.001306568287037037,
+  "navigation": [
+    {
+      "ttfb": 1153.4000000953674,
+      "domContentLoaded": 1293.7000002861023,
+      "load": 1341.7000002861023
+    }
+  ],
+  "transferBytes": 531685,
+  "fontLoaded": true,
+  "context": "Single local Edge headless run, desktop 1440x900, no throttling; not field CWV, not Lighthouse, no INP claim"
+}

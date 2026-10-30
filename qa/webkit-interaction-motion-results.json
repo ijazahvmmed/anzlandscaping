@@ -1,0 +1,33 @@
+{
+  "engine": "webkit",
+  "entering": {
+    "open": true,
+    "transform": "matrix(1, 0, 0, 1, 125.539864, 0)",
+    "animations": 1
+  },
+  "open": {
+    "open": true,
+    "expanded": "true",
+    "stopped": true
+  },
+  "closing": true,
+  "closed": {
+    "closed": true,
+    "focus": true,
+    "resumed": true
+  },
+  "backClean": true,
+  "marquee": {
+    "moving": true,
+    "paused": "paused",
+    "resumed": "running"
+  },
+  "dropdownEntering": true,
+  "dropdownClosed": true,
+  "hoverFill": "matrix(1, 0, 0, 1, 0, 0)",
+  "reducedClosed": true,
+  "reducedMarquee": true,
+  "axeMenu": [],
+  "axeBlog": [],
+  "errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "results": [
+    {
+      "engine": "edge",
+      "opening": {
+        "height": 586.421875,
+        "total": 732,
+        "animations": 16
+      },
+      "opened": {
+        "height": 720,
+        "total": 720,
+        "links": 15,
+        "inert": false,
+        "expanded": "true"
+      },
+      "closing": {
+        "open": true,
+        "height": 87.1875,
+        "inert": true
+      },
+      "closed": true,
+      "rapid": true,
+      "keyboard": true,
+      "reset": true,
+      "reduced": true,
+      "reducedClose": true,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "opening": {
+        "height": 479.828125,
+        "total": 732,
+        "animations": 16
+      },
+      "opened": {
+        "height": 720,
+        "total": 720,
+        "links": 15,
+        "inert": false,
+        "expanded": "true"
+      },
+      "closing": {
+        "open": true,
+        "height": 172.28125,
+        "inert": true
+      },
+      "closed": true,
+      "rapid": true,
+      "keyboard": true,
+      "reset": true,
+      "reduced": true,
+      "reducedClose": true,
+      "axe": [],
+      "errors": []
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,16 @@
+/* Remove source-artboard padding through layout geometry, preserving the photo. */
+svg.photo-framed{display:block;width:100%;height:auto;aspect-ratio:1;overflow:hidden;border-radius:inherit}
+.pillar .pillar-image svg.photo-framed{aspect-ratio:1;max-height:420px;border-radius:14px}
+.service-hero figure svg.photo-framed,.pillar-hero figure svg.photo-framed{aspect-ratio:1;border-radius:14px}
+.mega-menu svg.photo-framed{height:235px;aspect-ratio:auto;border:5px solid #fff;border-radius:16px;background:#e5ece3}
+.directory-photo svg.photo-framed{height:360px;aspect-ratio:auto;border-radius:14px}
+.service-detail svg.photo-framed{height:350px;aspect-ratio:auto;border-radius:14px}
+.desktop-nav{padding:5px 8px;border-radius:50px}.desktop-nav:before{border-radius:49px}.nav-lens{border-radius:50px}
+.hero-copy .botanical-mark{display:none}.experimental-hero{padding-bottom:35px}.image-project-label{justify-content:space-between}.image-project-label strong{font-size:12px}
+.declaration{padding-top:45px}.declaration-title{margin-top:0}.declaration-detail{margin-top:38px}.declaration-detail>div>p:first-child{font-size:16px;line-height:1.75}
+.pillars .section-heading{margin-top:0;margin-bottom:45px}.pillar-copy h3{margin-bottom:22px}
+.scene-stage .scene-frame figcaption{gap:20px;padding-top:20px}.scene-stage .scene-frame h3{font-size:22px}.scene-heading .text-link{font-size:12px}.selected-work>.section-heading{margin-top:0}
+.rooted-kicker,.garden-toolbar{justify-content:flex-end}.rooted-invitation{padding-top:20px}.rooted-invitation h2{line-height:1.08}.original-form-card h2{margin-top:0}
+@media(max-width:650px){.declaration{padding-top:35px}.declaration-title{margin-top:0}.declaration-detail>div>p:first-child{font-size:14px}.pillar .pillar-image svg.photo-framed{max-height:none}.directory-photo svg.photo-framed{height:280px}.service-detail svg.photo-framed{height:290px}.scene-heading .text-link{margin-top:16px}.garden-toolbar{align-items:flex-end}.original-form-card>p br{display:none}}
+.pillar.workplace .pillar-image{max-width:420px}.pillar .pillar-image svg.photo-framed{max-height:none}
+.directory-photo svg.photo-framed,.service-detail svg.photo-framed{height:auto;aspect-ratio:1}

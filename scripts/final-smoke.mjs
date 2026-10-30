@@ -1,0 +1,12 @@
+import {chromium} from '@playwright/test';
+import fs from 'node:fs/promises';
+const b=await chromium.launch({channel:'msedge'});const c=await b.newContext({viewport:{width:1440,height:900}});const p=await c.newPage();const errors=[];p.on('pageerror',e=>errors.push(e.message));
+await p.goto('http://127.0.0.1:8765/',{waitUntil:'networkidle'});await p.waitForTimeout(1700);
+await p.setViewportSize({width:1440,height:1100});await p.waitForTimeout(250);await p.screenshot({path:'qa/glass-home-desktop.png'});
+await p.locator('.hero-copy>.split-button').hover();await p.waitForTimeout(700);await p.screenshot({path:'qa/glass-button-hover.png'});
+await p.locator('.nav-group').first().hover();const megaOpen=await p.locator('.mega-menu').first().isVisible();await p.keyboard.press('Escape');await p.waitForTimeout(450);const megaClosed=!(await p.locator('.mega-menu').first().isVisible());
+await p.evaluate(()=>scrollTo({top:1600,behavior:'instant'}));await p.waitForTimeout(500);const sticky=await p.locator('.site-header').evaluate(e=>({position:getComputedStyle(e).position,scrolled:e.classList.contains('is-scrolled')}));
+await p.setViewportSize({width:390,height:844});await p.getByRole('button',{name:'Menu',exact:false}).click();const mobile=await p.locator('.mobile-menu').evaluate(d=>d.open);await p.keyboard.press('Escape');
+await p.goto('http://127.0.0.1:8765/services/pergola-and-fabrication-services-bangalore/',{waitUntil:'networkidle'});await p.getByRole('button',{name:'Wood',exact:true}).click();const material=await p.locator('.material-selector figure img').getAttribute('src');
+await p.setViewportSize({width:320,height:844});await p.goto('http://127.0.0.1:8765/projects/bhive-premium/',{waitUntil:'networkidle'});const overflow=await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+await c.close();await b.close();const result={megaOpen,megaClosed,sticky,mobile,material,overflow,errors};await fs.writeFile('qa/final-smoke.json',JSON.stringify(result,null,2));console.log(result);

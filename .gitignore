@@ -1,0 +1,11 @@
+node_modules/
+.local/
+dist/
+qa/trace/
+qa/*-recording/
+qa/garden-demo/
+qa/video/
+qa/**/page@*.webm
+*.log
+content-migration/export-audit.json
+taste-skill.md

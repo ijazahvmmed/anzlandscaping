@@ -1,0 +1,591 @@
+{
+  "results": [
+    {
+      "engine": "edge",
+      "path": "/",
+      "width": 1440,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 258.78125,
+          "height": 235
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 420,
+          "height": 420
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/",
+      "width": 390,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 346,
+          "height": 346
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/",
+      "width": 320,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 276,
+          "height": 276
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/",
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "path": "/workplace-greenery/",
+      "width": 1440,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 258.78125,
+          "height": 235
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 432,
+          "height": 432
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/workplace-greenery/",
+      "width": 390,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 334,
+          "height": 334
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/workplace-greenery/",
+      "width": 320,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 264,
+          "height": 264
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/workplace-greenery/",
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "path": "/services/",
+      "width": 1440,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 258.78125,
+          "height": 235
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 440,
+          "height": 440
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/services/",
+      "width": 390,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 346,
+          "height": 346
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/services/",
+      "width": 320,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 276,
+          "height": 276
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/services/",
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "preview": true
+    },
+    {
+      "engine": "edge",
+      "path": "/services/frp-planters-services-bangalore/",
+      "width": 1440,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 258.78125,
+          "height": 235
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3835",
+          "width": 440,
+          "height": 440
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/services/frp-planters-services-bangalore/",
+      "width": 390,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3835",
+          "width": 346,
+          "height": 346
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/services/frp-planters-services-bangalore/",
+      "width": 320,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3835",
+          "width": 276,
+          "height": 276
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "edge",
+      "path": "/services/frp-planters-services-bangalore/",
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "customCursor": 0,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "path": "/",
+      "width": 1440,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 258.78125,
+          "height": 235
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 420,
+          "height": 420
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/",
+      "width": 390,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 346,
+          "height": 346
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/",
+      "width": 320,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 276,
+          "height": 276
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/",
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "path": "/workplace-greenery/",
+      "width": 1440,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 258.78125,
+          "height": 235
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 432,
+          "height": 432
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/workplace-greenery/",
+      "width": 390,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 334,
+          "height": 334
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/workplace-greenery/",
+      "width": 320,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 264,
+          "height": 264
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/workplace-greenery/",
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "path": "/services/",
+      "width": 1440,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 258.78125,
+          "height": 235
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 440,
+          "height": 440
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/services/",
+      "width": 390,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 346,
+          "height": 346
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/services/",
+      "width": 320,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 276,
+          "height": 276
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/services/",
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "preview": true
+    },
+    {
+      "engine": "webkit",
+      "path": "/services/frp-planters-services-bangalore/",
+      "width": 1440,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 258.78125,
+          "height": 235
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3835",
+          "width": 440,
+          "height": 440
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/services/frp-planters-services-bangalore/",
+      "width": 390,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3835",
+          "width": 346,
+          "height": 346
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/services/frp-planters-services-bangalore/",
+      "width": 320,
+      "overflow": false,
+      "framed": [
+        {
+          "box": "300 0 1000 1000",
+          "source": "3845",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "box": "300 0 1000 1000",
+          "source": "3835",
+          "width": 276,
+          "height": 276
+        }
+      ],
+      "noise": null,
+      "badges": 0
+    },
+    {
+      "engine": "webkit",
+      "path": "/services/frp-planters-services-bangalore/",
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "customCursor": 0,
+      "errors": []
+    }
+  ],
+  "failures": []
+}

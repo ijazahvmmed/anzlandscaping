@@ -1,0 +1,8 @@
+{
+    "installed": true,
+    "name": "ANZ \u2014 A Living Framework",
+    "version": "1.8.0",
+    "active": "anz-2027-proof",
+    "runtime": "Local PHP 8.4.12 \/ WordPress 7.1.4",
+    "note": "Same release files under proof slug; production Hostinger staging not tested"
+}

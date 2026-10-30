@@ -1,0 +1,271 @@
+{
+  "results": [
+    {
+      "engine": "edge",
+      "canvasChanges": true,
+      "plants": 8,
+      "pointerResponse": true,
+      "reset": 6,
+      "layouts": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "sceneCount": 3,
+          "pinned": false,
+          "frames": [
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            },
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            },
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            }
+          ],
+          "legal": 4
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "sceneCount": 3,
+          "pinned": false,
+          "frames": [
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            },
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            },
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            }
+          ],
+          "legal": 4
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "sceneCount": 3,
+          "pinned": false,
+          "frames": [
+            {
+              "height": 327.828125,
+              "image": 170,
+              "caption": 143.828125
+            },
+            {
+              "height": 327.828125,
+              "image": 170,
+              "caption": 143.828125
+            },
+            {
+              "height": 327.828125,
+              "image": 170,
+              "caption": 143.828125
+            }
+          ],
+          "legal": 4
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "sceneCount": 3,
+          "pinned": false,
+          "frames": [
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            },
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            },
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            }
+          ],
+          "legal": 4
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "sceneCount": 3,
+          "pinned": false,
+          "frames": [
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            },
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            },
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            }
+          ],
+          "legal": 4
+        }
+      ],
+      "reducedAdd": 7,
+      "reducedSettled": true,
+      "axe": [],
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "canvasChanges": true,
+      "plants": 8,
+      "pointerResponse": true,
+      "reset": 6,
+      "layouts": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "sceneCount": 3,
+          "pinned": false,
+          "frames": [
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            },
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            },
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            }
+          ],
+          "legal": 4
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "sceneCount": 3,
+          "pinned": false,
+          "frames": [
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            },
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            },
+            {
+              "height": 375.125,
+              "image": 210,
+              "caption": 151.125
+            }
+          ],
+          "legal": 4
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "sceneCount": 3,
+          "pinned": false,
+          "frames": [
+            {
+              "height": 327.828125,
+              "image": 170,
+              "caption": 143.828125
+            },
+            {
+              "height": 327.828125,
+              "image": 170,
+              "caption": 143.828125
+            },
+            {
+              "height": 327.828125,
+              "image": 170,
+              "caption": 143.828125
+            }
+          ],
+          "legal": 4
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "sceneCount": 3,
+          "pinned": false,
+          "frames": [
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            },
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            },
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            }
+          ],
+          "legal": 4
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "sceneCount": 3,
+          "pinned": false,
+          "frames": [
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            },
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            },
+            {
+              "height": 379.125,
+              "image": 200,
+              "caption": 165.125
+            }
+          ],
+          "legal": 4
+        }
+      ],
+      "reducedAdd": 7,
+      "reducedSettled": true,
+      "axe": [],
+      "errors": []
+    }
+  ],
+  "failures": []
+}

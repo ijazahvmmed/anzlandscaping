@@ -1,0 +1,135 @@
+{
+  "results": [
+    {
+      "engine": "edge",
+      "width": 1920,
+      "height": 1080,
+      "duration": 6.041667,
+      "muted": true,
+      "loop": true,
+      "inline": true,
+      "overlay": "rgba(0, 0, 0, 0.2)",
+      "paused": true,
+      "loops": true,
+      "layouts": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "ratio": 1.7778184115163402
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "ratio": 1.7777952508256014
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "ratio": 1.7777777777777777
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "ratio": 1.7777777777777777
+        }
+      ],
+      "offscreenPaused": true,
+      "reducedState": {
+        "paused": true,
+        "src": null,
+        "poster": true
+      },
+      "mediaRequests": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 836,
+      "height": 470,
+      "duration": 6.042,
+      "muted": true,
+      "loop": true,
+      "inline": true,
+      "overlay": "rgba(0, 0, 0, 0.2)",
+      "paused": true,
+      "loops": false,
+      "layouts": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "ratio": 1.7778184115163402
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "ratio": 1.7777952508256014
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "ratio": 1.7777777777777777
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "ratio": 1.7777777777777777
+        }
+      ],
+      "offscreenPaused": true,
+      "reducedState": {
+        "paused": true,
+        "src": null,
+        "poster": true
+      },
+      "mediaRequests": [],
+      "axe": [],
+      "errors": []
+    }
+  ],
+  "failures": [
+    {
+      "engine": "webkit",
+      "width": 836,
+      "height": 470,
+      "duration": 6.042,
+      "muted": true,
+      "loop": true,
+      "inline": true,
+      "overlay": "rgba(0, 0, 0, 0.2)",
+      "paused": true,
+      "loops": false,
+      "layouts": [
+        {
+          "width": 1440,
+          "overflow": false,
+          "ratio": 1.7778184115163402
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "ratio": 1.7777952508256014
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "ratio": 1.7777777777777777
+        },
+        {
+          "width": 320,
+          "overflow": false,
+          "ratio": 1.7777777777777777
+        }
+      ],
+      "offscreenPaused": true,
+      "reducedState": {
+        "paused": true,
+        "src": null,
+        "poster": true
+      },
+      "mediaRequests": [],
+      "axe": [],
+      "errors": []
+    }
+  ]
+}

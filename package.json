@@ -1,0 +1,22 @@
+{
+  "name": "anz-2027",
+  "version": "1.8.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "dev": "vite",
+    "qa": "node scripts/qa.mjs",
+    "package": "python scripts/package.py"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.27"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.56.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  }
+}

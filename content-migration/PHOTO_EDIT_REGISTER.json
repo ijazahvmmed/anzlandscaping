@@ -1,0 +1,37 @@
+[
+  {
+    "source": "assets/media/2415.webp",
+    "edited": "assets/media/edited/2415.webp",
+    "master": "output/photo-edits/2415-enhanced.png",
+    "method": "Built-in imagegen, realistic source-based architectural-photo edit",
+    "original_retained": true
+  },
+  {
+    "source": "assets/media/2397.webp",
+    "edited": "assets/media/edited/2397.webp",
+    "master": "output/photo-edits/2397-enhanced.png",
+    "method": "Built-in imagegen, realistic source-based architectural-photo edit",
+    "original_retained": true
+  },
+  {
+    "source": "assets/media/2304.webp",
+    "edited": "assets/media/edited/2304.webp",
+    "master": "output/photo-edits/2304-enhanced.png",
+    "method": "Built-in imagegen, realistic source-based architectural-photo edit",
+    "original_retained": true
+  },
+  {
+    "source": "assets/media/2350.webp",
+    "edited": "assets/media/edited/2350.webp",
+    "master": "output/photo-edits/2350-enhanced.png",
+    "method": "Built-in imagegen, realistic source-based architectural-photo edit",
+    "original_retained": true
+  },
+  {
+    "source": "assets/media/2365.webp",
+    "edited": "assets/media/edited/2365.webp",
+    "master": "output/photo-edits/2365-enhanced.png",
+    "method": "Built-in imagegen, realistic source-based architectural-photo edit",
+    "original_retained": true
+  }
+]

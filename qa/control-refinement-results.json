@@ -1,0 +1,353 @@
+{
+  "results": [
+    {
+      "engine": "edge",
+      "width": 1440,
+      "selector": ".hero-copy>.split-button",
+      "rest": {
+        "panelWidth": 44,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 16,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 164.422,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 16,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 188.531,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 16,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "edge",
+      "width": 1440,
+      "selector": ".header-cta",
+      "rest": {
+        "panelWidth": 36,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 12,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 109.75,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 12,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 127.672,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 12,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "edge",
+      "width": 390,
+      "selector": ".hero-copy>.split-button",
+      "rest": {
+        "panelWidth": 44,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 164.078,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 190.531,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "edge",
+      "width": 390,
+      "selector": ".header-cta",
+      "rest": {
+        "panelWidth": 30,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 91.0781,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 104.516,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "edge",
+      "width": 320,
+      "selector": ".hero-copy>.split-button",
+      "rest": {
+        "panelWidth": 44,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 166.094,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 190.531,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "edge",
+      "width": 320,
+      "selector": ".header-cta",
+      "rest": {
+        "panelWidth": 30,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 80.5625,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 92.8281,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "selector": ".hero-copy>.split-button",
+      "rest": {
+        "panelWidth": 44,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 16,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 162.265625,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 16,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 188.53125,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 16,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "selector": ".header-cta",
+      "rest": {
+        "panelWidth": 36,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 12,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 110.625,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 12,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 127.671875,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 12,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "selector": ".hero-copy>.split-button",
+      "rest": {
+        "panelWidth": 44,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 167.296875,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 190.53125,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "selector": ".header-cta",
+      "rest": {
+        "panelWidth": 30,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 90.8125,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 104.515625,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "selector": ".hero-copy>.split-button",
+      "rest": {
+        "panelWidth": 44,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 165.375,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 190.53125,
+        "rightInset": 5,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 18,
+        "overflow": false
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "selector": ".header-cta",
+      "rest": {
+        "panelWidth": 30,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      },
+      "entering": {
+        "panelWidth": 81.65625,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      },
+      "hover": {
+        "panelWidth": 92.828125,
+        "rightInset": 4,
+        "transform": "none",
+        "panelInside": true,
+        "labelGap": 6,
+        "overflow": false
+      }
+    }
+  ],
+  "failures": []
+}

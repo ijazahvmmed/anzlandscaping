@@ -1,0 +1,1 @@
+<?php get_header(); ?><section class="reading-page section-pad"><span class="editorial-caption">404</span><h1>Page not found</h1><p>This page could not be found. Explore our services or tell us about your space.</p><?php anz_link('/services/','Explore services','button'); ?> <?php anz_link('/contact-us/','Contact ANZ'); ?></section><?php get_footer(); ?>

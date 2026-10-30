@@ -1,0 +1,15 @@
+import {chromium} from '@playwright/test';
+import fs from 'node:fs/promises';
+const b=await chromium.launch({channel:'msedge'});const p=await b.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});const errors=[];p.on('pageerror',e=>errors.push(e.message));
+await p.goto('http://127.0.0.1:8765/contact-us/',{waitUntil:'networkidle'});
+if(await p.locator('.quick-quote summary').count())await p.locator('.quick-quote summary').click();
+await p.locator('#forminator-module-3743').waitFor();
+const fields=await p.locator('#forminator-module-3743 input').evaluateAll(els=>els.map(e=>({name:e.name,type:e.type,required:e.required})));
+console.log(fields);
+await p.getByRole('button',{name:'Request Quote',exact:true}).click();await p.waitForTimeout(1200);
+const requiredMessages=await p.locator('#forminator-module-3743 .forminator-error-message').allTextContents();
+await p.locator('input[name="name-1"]').fill('ANZ Local QA');await p.locator('input[name="phone-1"]').fill('+91 90000 00000');
+await p.getByRole('button',{name:'Request Quote',exact:true}).click();await p.waitForTimeout(3000);
+const response=await p.locator('#forminator-module-3743 .forminator-response-message').allTextContents();
+await p.screenshot({path:'qa/forminator-mobile.png',fullPage:true});
+await fs.writeFile('qa/forminator-result.json',JSON.stringify({fields,requiredMessages,response,errors,mailTransport:'Blocked by local MU plugin; no inbox-delivery verification'},null,2));console.log({requiredMessages,response,errors});await b.close();

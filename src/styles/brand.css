@@ -1,0 +1,8 @@
+/* A complete logo at every breakpoint: no negative offsets or clipping boxes. */
+.site-header .brand{display:flex;align-items:center;justify-content:center;width:108px;height:64px;overflow:visible;flex-shrink:0}
+.site-header .brand .brand-art,.site-header .brand img{position:static;inset:auto;display:block;width:100%;height:100%;max-width:100%;object-fit:contain;object-position:center;transform:none}
+.rooted-logo{display:flex;align-items:center;justify-content:center;width:108px;height:64px;overflow:visible;flex-shrink:0}
+.rooted-logo .brand-art,.rooted-logo img{position:static;inset:auto;display:block;width:100%;height:100%;max-width:100%;object-fit:contain;transform:none;filter:grayscale(1) invert(1) brightness(3)}
+@media(max-width:950px){.site-header .brand{width:94px;height:56px}}
+@media(max-width:650px){.site-header .brand{width:84px;height:50px}.rooted-logo{width:100px;height:60px}}
+@media(max-width:360px){.site-header{gap:8px}.site-header .brand{width:72px;height:46px}}

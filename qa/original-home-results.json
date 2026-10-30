@@ -1,0 +1,157 @@
+{
+  "results": [
+    {
+      "engine": "edge",
+      "width": 1440,
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "width": 390,
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "coverage": {
+        "benefits": 4,
+        "metrics": [
+          "18+",
+          "30+",
+          "500+",
+          "44+",
+          "10+"
+        ],
+        "services": 6,
+        "clients": 18,
+        "awards": 3,
+        "publication": true,
+        "form": 1,
+        "faq": [
+          "What landscaping services does ANZ provide?",
+          "Who does ANZ Landscaping work with?",
+          "Where is ANZ Landscaping based?",
+          "Does ANZ provide ongoing garden maintenance?",
+          "How can I request a landscaping quote?"
+        ],
+        "h1": 1,
+        "brokenImages": []
+      },
+      "seo": {
+        "title": "Commercial & Residential Landscaping Bangalore | ANZ",
+        "descriptions": [
+          "ANZ Landscaping creates sustainable landscapes for residential, commercial and corporate spaces in Bengaluru. Explore our services, projects and garden care."
+        ],
+        "canonical": "http://127.0.0.1:8765/",
+        "localBusiness": "LocalBusiness",
+        "faqMatchesVisible": true,
+        "noindex": "noindex, nofollow"
+      },
+      "layouts": [
+        {
+          "width": 1440,
+          "overflow": false
+        },
+        {
+          "width": 1024,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "overflow": false
+        }
+      ],
+      "brokenLinks": [],
+      "faqKeyboard": true,
+      "validation": [
+        "This field is required. Please input your name.",
+        "This field is required. Please input a phone number."
+      ],
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "coverage": {
+        "benefits": 4,
+        "metrics": [
+          "18+",
+          "30+",
+          "500+",
+          "44+",
+          "10+"
+        ],
+        "services": 6,
+        "clients": 18,
+        "awards": 3,
+        "publication": true,
+        "form": 1,
+        "faq": [
+          "What landscaping services does ANZ provide?",
+          "Who does ANZ Landscaping work with?",
+          "Where is ANZ Landscaping based?",
+          "Does ANZ provide ongoing garden maintenance?",
+          "How can I request a landscaping quote?"
+        ],
+        "h1": 1,
+        "brokenImages": []
+      },
+      "seo": {
+        "title": "Commercial & Residential Landscaping Bangalore | ANZ",
+        "descriptions": [
+          "ANZ Landscaping creates sustainable landscapes for residential, commercial and corporate spaces in Bengaluru. Explore our services, projects and garden care."
+        ],
+        "canonical": "http://127.0.0.1:8765/",
+        "localBusiness": "LocalBusiness",
+        "faqMatchesVisible": true,
+        "noindex": "noindex, nofollow"
+      },
+      "layouts": [
+        {
+          "width": 1440,
+          "overflow": false
+        },
+        {
+          "width": 1024,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "overflow": false
+        }
+      ],
+      "brokenLinks": [],
+      "faqKeyboard": true,
+      "validation": [
+        "This field is required. Please input your name.",
+        "This field is required. Please input a phone number."
+      ],
+      "errors": []
+    }
+  ],
+  "failures": []
+}

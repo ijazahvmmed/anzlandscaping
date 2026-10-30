@@ -1,0 +1,267 @@
+{
+  "results": [
+    {
+      "engine": "edge",
+      "width": 1920,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        357.328125,
+        357.328125,
+        357.34375
+      ],
+      "imageHeights": [
+        238.21875,
+        238.21875,
+        238.21875
+      ]
+    },
+    {
+      "engine": "edge",
+      "width": 1440,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        357.328125,
+        357.328125,
+        357.34375
+      ],
+      "imageHeights": [
+        238.21875,
+        238.21875,
+        238.21875
+      ]
+    },
+    {
+      "engine": "edge",
+      "width": 1440,
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "width": 1024,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        298.015625,
+        298.03125,
+        298.015625
+      ],
+      "imageHeights": [
+        198.671875,
+        198.6875,
+        198.671875
+      ]
+    },
+    {
+      "engine": "edge",
+      "width": 768,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        223.515625,
+        223.515625,
+        223.515625
+      ],
+      "imageHeights": [
+        149,
+        149,
+        149
+      ]
+    },
+    {
+      "engine": "edge",
+      "width": 390,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        346,
+        346,
+        346
+      ],
+      "imageHeights": [
+        230.65625,
+        230.65625,
+        230.65625
+      ]
+    },
+    {
+      "engine": "edge",
+      "width": 390,
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "width": 320,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        276,
+        276,
+        276
+      ],
+      "imageHeights": [
+        184,
+        184,
+        184
+      ]
+    },
+    {
+      "engine": "edge",
+      "hierarchy": [
+        "Why choose ANZ Landscaping?",
+        "Landscaping solutionstailored for your space",
+        "Our work",
+        "Trusted by leading businesses",
+        "Awards & recognitions",
+        "Our approach",
+        "Ongoing care",
+        "Landscaping questions",
+        "Need assistance?"
+      ],
+      "imageCount": 39,
+      "work": 3,
+      "opened": true,
+      "closed": true,
+      "broken": [],
+      "tickerMoving": true,
+      "paused": true,
+      "resumed": true,
+      "processAnimating": true,
+      "reduced": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        357.328125,
+        357.328125,
+        357.328125
+      ],
+      "imageHeights": [
+        238.21875,
+        238.21875,
+        238.21875
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        357.328125,
+        357.328125,
+        357.328125
+      ],
+      "imageHeights": [
+        238.21875,
+        238.21875,
+        238.21875
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        298.015625,
+        298.03125,
+        298.03125
+      ],
+      "imageHeights": [
+        198.671875,
+        198.6875,
+        198.6875
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        223.515625,
+        223.515625,
+        223.515625
+      ],
+      "imageHeights": [
+        149,
+        149,
+        149
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        346,
+        346,
+        346
+      ],
+      "imageHeights": [
+        230.65625,
+        230.65625,
+        230.65625
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "overflow": false,
+      "headerOverlap": false,
+      "workCards": [
+        276,
+        276,
+        276
+      ],
+      "imageHeights": [
+        184,
+        184,
+        184
+      ]
+    },
+    {
+      "engine": "webkit",
+      "hierarchy": [
+        "Why choose ANZ Landscaping?",
+        "Landscaping solutionstailored for your space",
+        "Our work",
+        "Trusted by leading businesses",
+        "Awards & recognitions",
+        "Our approach",
+        "Ongoing care",
+        "Landscaping questions",
+        "Need assistance?"
+      ],
+      "imageCount": 39,
+      "work": 3,
+      "opened": true,
+      "closed": true,
+      "broken": [],
+      "tickerMoving": true,
+      "paused": true,
+      "resumed": true,
+      "processAnimating": true,
+      "reduced": true,
+      "errors": []
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,68 @@
+{
+  "fields": [
+    {
+      "name": "name-1",
+      "type": "text",
+      "required": false
+    },
+    {
+      "name": "phone-1",
+      "type": "text",
+      "required": false
+    },
+    {
+      "name": "referer_url",
+      "type": "hidden",
+      "required": false
+    },
+    {
+      "name": "forminator_nonce",
+      "type": "hidden",
+      "required": false
+    },
+    {
+      "name": "_wp_http_referer",
+      "type": "hidden",
+      "required": false
+    },
+    {
+      "name": "form_id",
+      "type": "hidden",
+      "required": false
+    },
+    {
+      "name": "page_id",
+      "type": "hidden",
+      "required": false
+    },
+    {
+      "name": "form_type",
+      "type": "hidden",
+      "required": false
+    },
+    {
+      "name": "current_url",
+      "type": "hidden",
+      "required": false
+    },
+    {
+      "name": "render_id",
+      "type": "hidden",
+      "required": false
+    },
+    {
+      "name": "action",
+      "type": "hidden",
+      "required": false
+    }
+  ],
+  "requiredMessages": [
+    "This field is required. Please input your name.",
+    "This field is required. Please input a phone number."
+  ],
+  "response": [
+    "Thank you for contacting us, we will be in touch shortly."
+  ],
+  "errors": [],
+  "mailTransport": "Blocked by local MU plugin; no inbox-delivery verification"
+}

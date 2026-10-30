@@ -1,0 +1,24 @@
+import {chromium,webkit} from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+import fs from 'node:fs/promises';
+const results=[];
+for(const engine of ['edge','webkit']){
+ const b=engine==='edge'?await chromium.launch({channel:'msedge'}):await webkit.launch();const c=await b.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const p=await c.newPage();const errors=[];p.on('pageerror',e=>errors.push(e.message));
+ await p.goto('http://127.0.0.1:8765/',{waitUntil:'networkidle'});await p.locator('img').evaluateAll(imgs=>{imgs.forEach(img=>img.loading='eager');return Promise.all(imgs.map(img=>img.decode().catch(()=>{})));});
+ const hierarchy=await p.locator('main h2').allTextContents();const imageCount=await p.locator('main img,main svg.photo-framed').count();const work=await p.locator('.home-work .project-tile').count();
+ for(const width of [1920,1440,1024,768,390,320]){
+  await p.setViewportSize({width,height:1000});await p.waitForTimeout(150);
+  const layout=await p.evaluate(()=>{const controls=[...document.querySelector('.site-header').children].map(el=>el.getBoundingClientRect()).filter(r=>r.width&&r.height).sort((a,b)=>a.left-b.left);return {overflow:document.documentElement.scrollWidth>innerWidth,headerOverlap:controls.some((r,n)=>n&&r.left<controls[n-1].right-1),workCards:[...document.querySelectorAll('.home-work .project-tile')].map(el=>el.getBoundingClientRect().width),imageHeights:[...document.querySelectorAll('.home-work .photo-frame')].map(el=>el.getBoundingClientRect().height)};});results.push({engine,width,...layout});
+  if(width===1440||width===390){await p.screenshot({path:`qa/${engine}-homepage-story-${width}.png`,fullPage:true});const axe=await new AxeBuilder({page:p}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();results.push({engine,width,axe:axe.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}))});if(width===1440){for(const [name,selector] of Object.entries({services:'.original-services',work:'.home-work',approach:'.home-approach'}))await p.locator(selector).screenshot({path:`qa/${engine}-homepage-${name}.png`,style:'.site-header{visibility:hidden!important}'});}}
+ }
+ // Test the process accordion independently from mobile navigation.
+ await p.setViewportSize({width:1440,height:1000});const detail=p.locator('.home-approach details').nth(1);await detail.locator('summary').click();const opened=await detail.evaluate(el=>el.open&&el.querySelector('summary').getAttribute('aria-expanded')==='true');
+ await detail.locator('summary').press('Enter');const closed=await detail.evaluate(el=>!el.open);
+ const links=await p.locator('main a').evaluateAll(as=>[...new Set(as.map(a=>a.href).filter(h=>h.startsWith(location.origin)).map(h=>h.split('#')[0]))]);const broken=[];for(const url of links){const response=await p.request.get(url);if(response.status()!==200)broken.push({url,status:response.status()});}
+ await p.emulateMedia({reducedMotion:'no-preference'});await p.reload({waitUntil:'networkidle'});await p.waitForTimeout(1300);const ticker=p.locator('.nav-ribbon-track');const a=await ticker.evaluate(el=>getComputedStyle(el).transform);await p.waitForTimeout(400);const z=await ticker.evaluate(el=>getComputedStyle(el).transform);
+ await p.getByRole('button',{name:'Pause header marquee',exact:true}).click();const paused=await ticker.evaluate(el=>getComputedStyle(el).animationPlayState==='paused');await p.getByRole('button',{name:'Resume header marquee',exact:true}).click();const resumed=await ticker.evaluate(el=>getComputedStyle(el).animationPlayState==='running');await p.locator('.site-header').screenshot({path:`qa/${engine}-header-marquee-restored.png`});
+ await p.locator('.home-approach details').nth(2).locator('summary').click();await p.waitForTimeout(120);const processAnimating=await p.locator('.home-approach details').nth(2).locator('.service-accordion-panel').evaluate(el=>el.getAnimations().length>0);await p.waitForTimeout(650);
+ await p.emulateMedia({reducedMotion:'reduce'});const reduced=await ticker.evaluate(el=>getComputedStyle(el).animationName==='none');results.push({engine,hierarchy,imageCount,work,opened,closed,broken,tickerMoving:a!==z,paused,resumed,processAnimating,reduced,errors});await b.close();
+}
+const failures=results.filter(r=>r.overflow||r.headerOverlap||r.axe?.length||r.broken?.length||r.opened===false||r.closed===false||r.tickerMoving===false||r.paused===false||r.resumed===false||r.processAnimating===false||r.reduced===false||r.errors?.length||(r.work!==undefined&&r.work!==3)||(r.hierarchy&&JSON.stringify(r.hierarchy.filter(h=>['Our work','Our approach','Ongoing care'].includes(h)))!==JSON.stringify(['Our work','Our approach','Ongoing care'])));
+await fs.writeFile('qa/homepage-story-results.json',JSON.stringify({results,failures},null,2));console.log(JSON.stringify({checks:results.length,failures},null,2));if(failures.length)process.exitCode=1;

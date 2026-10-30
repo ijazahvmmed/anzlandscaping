@@ -1,0 +1,113 @@
+{
+  "results": [
+    {
+      "engine": "edge",
+      "width": 1440,
+      "visible": true,
+      "instances": 1,
+      "fallbacks": 0,
+      "overflow": false,
+      "name": 1,
+      "phone": 1
+    },
+    {
+      "engine": "edge",
+      "width": 1440,
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "width": 768,
+      "visible": true,
+      "instances": 1,
+      "fallbacks": 0,
+      "overflow": false,
+      "name": 1,
+      "phone": 1
+    },
+    {
+      "engine": "edge",
+      "width": 390,
+      "visible": true,
+      "instances": 1,
+      "fallbacks": 0,
+      "overflow": false,
+      "name": 1,
+      "phone": 1
+    },
+    {
+      "engine": "edge",
+      "width": 390,
+      "axe": []
+    },
+    {
+      "engine": "edge",
+      "width": 320,
+      "visible": true,
+      "instances": 1,
+      "fallbacks": 0,
+      "overflow": false,
+      "name": 1,
+      "phone": 1
+    },
+    {
+      "engine": "edge",
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "visible": true,
+      "instances": 1,
+      "fallbacks": 0,
+      "overflow": false,
+      "name": 1,
+      "phone": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "visible": true,
+      "instances": 1,
+      "fallbacks": 0,
+      "overflow": false,
+      "name": 1,
+      "phone": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "visible": true,
+      "instances": 1,
+      "fallbacks": 0,
+      "overflow": false,
+      "name": 1,
+      "phone": 1
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "axe": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "visible": true,
+      "instances": 1,
+      "fallbacks": 0,
+      "overflow": false,
+      "name": 1,
+      "phone": 1
+    },
+    {
+      "engine": "webkit",
+      "errors": []
+    }
+  ],
+  "failures": []
+}
