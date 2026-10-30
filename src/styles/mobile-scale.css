@@ -1,0 +1,61 @@
+/* Compact mobile hierarchy. Desktop composition and native touch scroll stay intact. */
+@media(max-width:650px){
+ :root{--gutter:20px;--display:34px;--heading:28px;--body:14px}
+ body{font-size:14px;line-height:1.6}
+ .site-header,.home .site-header,.home .site-header.is-scrolled{height:66px;padding-inline:18px;gap:8px}
+ .site-header .brand{width:64px;height:40px}
+ .header-cta.split-button{font-size:9px;min-height:44px;padding:4px 4px 4px 10px;gap:7px;border-radius:12px;margin-block:0}
+ .header-cta.split-button>.button-icon{width:26px;height:26px;font-size:16px;border-radius:8px}
+ .header-cta.split-button:before{width:26px;inset:4px 4px 4px auto;border-radius:8px}
+ .menu-toggle{font-size:10px;min-height:44px;padding:8px 11px;gap:7px;margin-block:0}
+ .menu-toggle svg{width:14px;height:14px}.menu-toggle>span{font-size:13px}
+ .home .experimental-hero.immersive-hero{padding:100px 22px 78px;min-height:580px}
+ .home .immersive-hero .hero-copy h1{font-size:clamp(28px,7.5vw,34px);line-height:1.12;letter-spacing:-.045em}
+ .home .immersive-hero .hero-description{margin-top:17px}
+ .home .immersive-hero .hero-description p{font-size:12px;line-height:1.65;max-width:320px}
+ .home .immersive-hero .hero-actions{margin-top:20px;gap:18px}
+ .home .immersive-hero .hero-actions .split-button{min-height:44px;font-size:11px;gap:15px}
+ .home .immersive-hero .hero-actions .button-icon{width:32px;height:32px;font-size:19px}
+ .home .immersive-hero .hero-actions>.text-link{font-size:11px;gap:16px}
+ .home .immersive-hero .hero-actions>.text-link>span{width:29px;height:29px;font-size:16px}
+ .home-chapter{padding-block:34px}
+ .home-chapter h2{font-size:28px;line-height:1.15}
+ .home-chapter-head{gap:14px;margin-bottom:22px}
+ .home-chapter-head p,.original-about-grid p{font-size:13px;line-height:1.75}
+ .original-about h2{margin-bottom:18px}
+ .original-about-grid{gap:24px}
+ .original-metrics{margin-block:24px;padding-block:20px;gap:20px 14px}
+ .original-metrics dd{font-size:28px}.original-metrics dt{font-size:11px}
+ .original-benefits{gap:12px}.original-benefits article{padding:17px 14px}
+ .original-benefits h3{font-size:16px}.original-benefits p{font-size:12px;line-height:1.7}
+ .original-benefits img{width:27px;height:27px;margin-bottom:12px}
+ .original-service-grid{gap:18px}.original-service-card>div{padding:15px 17px 17px}
+ .original-service-card h3{font-size:21px}.original-service-card p{font-size:13px;margin-top:12px;line-height:1.7}
+ .original-service-photo img{height:175px}
+ .home-work .tile-caption h3{font-size:20px}.home-work .project-grid{gap:23px}
+ .home-approach-steps summary,.home-approach .service-accordion>summary{font-size:16px;padding-block:16px}
+ .home-question-list summary,.home-questions .service-accordion>summary{font-size:14px;min-height:54px;padding-block:16px}
+ .original-assistance{gap:24px}.original-assistance .original-form-card{padding:22px 20px}
+ .original-form-card h2,.original-form-card h3{font-size:25px}
+ .section-pad{padding-block:40px}
+ .service-hero,.pillar-hero,.about-hero,.contact-layout,.project-intro,.portfolio-intro{gap:25px;padding-top:28px;padding-bottom:32px}
+ .service-hero h1,.pillar-hero h1,.about-hero h1,.contact-layout h1,.project-intro h1,.portfolio-intro h1,.article-header h1,.reading-page h1{font-size:34px;line-height:1.12;letter-spacing:-.045em}
+ .service-hero .lead,.pillar-hero p,.about-hero .lead,.contact-layout>div>p{font-size:15px;line-height:1.65}
+ .service-scope h2,.service-detail h2,.pillar-editorial h2,.related-services h2,.next-project h2,.project-overview h2,.service-directory>h2,.phase-story>h2{font-size:28px}
+ .service-rows h3{font-size:22px}.contact-details a{font-size:17px}
+ .project-meta{font-size:12px;gap:12px}.breadcrumbs{font-size:11px;margin-bottom:20px}
+ .rooted-shell{padding:18px 20px}.rooted-invitation{padding:22px 0 25px;gap:20px}
+ .rooted-invitation h2{font-size:32px}.rooted-grid{padding-top:23px;gap:22px 16px}
+ .mobile-menu{padding:20px}.mobile-menu nav>a{font-size:25px;padding-block:10px}
+ .mobile-menu .service-accordion>summary{font-size:15px}.mobile-menu .service-accordion-panel a{font-size:14px}
+ input,select,textarea{font-size:16px}
+}
+@media(max-width:360px){
+ .site-header,.home .site-header,.home .site-header.is-scrolled{padding-inline:16px;gap:7px}
+ .site-header .brand{width:58px;height:36px}
+ .home .experimental-hero.immersive-hero{padding-inline:18px}
+ .home .immersive-hero .hero-copy h1{font-size:28px}
+ .home .immersive-hero .hero-actions{gap:12px}
+ .home-chapter h2{font-size:26px}
+ .service-hero h1,.pillar-hero h1,.about-hero h1,.contact-layout h1,.project-intro h1,.portfolio-intro h1{font-size:31px}
+}

@@ -12,35 +12,35 @@
         {
           "selector": ".immersive-hero",
           "before": 0,
-          "after": 411,
+          "after": 429,
           "plants": null,
           "afterPlants": null
         },
         {
           "selector": ".original-services",
           "before": 3516,
-          "after": 3972,
+          "after": 3781,
           "plants": null,
           "afterPlants": null
         },
         {
           "selector": ".home-work",
           "before": 5554,
-          "after": 5900,
+          "after": 5930,
           "plants": null,
           "afterPlants": null
         },
         {
           "selector": ".home-approach",
-          "before": 9187,
-          "after": 9642,
+          "before": 9190,
+          "after": 9613,
           "plants": null,
           "afterPlants": null
         },
         {
           "selector": ".footer-garden-field",
           "before": 12529,
-          "after": 12100,
+          "after": 12071,
           "plants": null,
           "afterPlants": null
         }
@@ -54,8 +54,8 @@
             "overflow": "visible"
           },
           "movement": {
-            "before": 12080,
-            "after": 12529
+            "before": 12039,
+            "after": 12390
           }
         },
         {
@@ -66,8 +66,8 @@
             "overflow": "visible"
           },
           "movement": {
-            "before": 12529,
-            "after": 12027
+            "before": 12390,
+            "after": 12004
           }
         },
         {
@@ -78,8 +78,8 @@
             "overflow": "visible"
           },
           "movement": {
-            "before": 12013,
-            "after": 12376
+            "before": 11999,
+            "after": 12318
           }
         }
       ],
@@ -89,8 +89,8 @@
         "overflow": "visible"
       },
       "afterResize": {
-        "before": 12377,
-        "after": 11886
+        "before": 12318,
+        "after": 11820
       },
       "cancelled": [
         {
@@ -109,7 +109,7 @@
       "desktopLenis": true,
       "errors": [],
       "motionRequests": [
-        "http://127.0.0.1:8766/wp-content/themes/anz-2027/assets/dist/assets/mobile-motion-CWIL4WU5.js"
+        "https://anzlandscapinggg-five.vercel.app/wp-content/themes/anz-2027/assets/dist/assets/mobile-motion-CWIL4WU5.js"
       ],
       "scrollWrites": []
     },
@@ -222,7 +222,7 @@
       "desktopLenis": true,
       "errors": [],
       "motionRequests": [
-        "http://127.0.0.1:8766/wp-content/themes/anz-2027/assets/dist/assets/mobile-motion-CWIL4WU5.js"
+        "https://anzlandscapinggg-five.vercel.app/wp-content/themes/anz-2027/assets/dist/assets/mobile-motion-CWIL4WU5.js"
       ],
       "scrollWrites": []
     }

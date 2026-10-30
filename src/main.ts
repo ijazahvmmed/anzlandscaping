@@ -13,6 +13,7 @@ import './styles/editorial-cleanup.css';
 import './styles/homepage.css';
 import './styles/original-content.css';
 import './styles/hero-video.css';
+import './styles/mobile-scale.css';
 import {initHeroVideo} from './hero-video';
 import {initFooterGarden} from './footer-garden';
 import {initNavigationMotion,initMarquees,initGlassInteractions,initServiceAccordion,initHeaderMarquee} from './interactions';
